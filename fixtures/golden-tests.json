@@ -1,0 +1,183 @@
+{
+  "$schema": "./golden-tests.schema.json",
+  "version": "1.0",
+  "mcp_name": "Indonesian Law MCP",
+  "description": "Golden contract tests for the Indonesian Law MCP covering PDP Law, ITE Law, Government Regulation on Electronic Systems, Company Law, and Consumer Protection",
+  "tests": [
+    {
+      "id": "id-001",
+      "category": "article_retrieval",
+      "description": "Retrieve Article 1 of the PDP Law (UU No. 27/2022) -- definitions including personal data (data pribadi)",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "UU No. 27 Tahun 2022",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "text_contains": ["data pribadi", "personal data"],
+        "fields_present": ["text", "article_number"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "id-002",
+      "category": "article_retrieval",
+      "description": "Retrieve Article 1 of the ITE Law (UU No. 11/2008 as amended by UU No. 19/2016) -- definitions of electronic information and transactions",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "UU No. 11 Tahun 2008",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["informasi elektronik", "electronic information", "transaksi elektronik"],
+        "fields_present": ["text", "article_number"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "id-003",
+      "category": "article_retrieval",
+      "description": "Retrieve Article 1 of the Company Law (UU No. 40/2007) -- definitions of Perseroan Terbatas (limited liability company)",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "UU No. 40 Tahun 2007",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["perseroan", "company", "badan hukum"],
+        "fields_present": ["text", "article_number"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "id-004",
+      "category": "article_retrieval",
+      "description": "Retrieve Article 1 of PP No. 71/2019 -- definitions related to electronic system operations",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "PP No. 71 Tahun 2019",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["sistem elektronik", "electronic system", "penyelenggara"],
+        "fields_present": ["text"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "id-005",
+      "category": "search",
+      "description": "Full-text search for 'data pribadi' returns PDP Law provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "data pribadi"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "any_result_contains": ["Perlindungan Data Pribadi", "data pribadi", "UU No. 27"]
+      }
+    },
+    {
+      "id": "id-006",
+      "category": "search",
+      "description": "Full-text search for 'transaksi elektronik' returns ITE Law provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "transaksi elektronik"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "any_result_contains": ["Informasi dan Transaksi Elektronik", "transaksi elektronik", "ITE"]
+      }
+    },
+    {
+      "id": "id-007",
+      "category": "search",
+      "description": "Full-text search for 'keamanan siber' returns cybersecurity-related provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "keamanan siber"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "any_result_contains": ["keamanan", "siber", "elektronik", "sistem"]
+      }
+    },
+    {
+      "id": "id-008",
+      "category": "citation_roundtrip",
+      "description": "Citation for PDP Law Article 15 (data controller obligations) includes peraturan.bpk.go.id URL pattern",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "UU No. 27 Tahun 2022",
+        "article": "15"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "citation_url_pattern": "peraturan\\.bpk\\.go\\.id",
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "id-009",
+      "category": "citation_roundtrip",
+      "description": "Citation for Consumer Protection Law Article 1 includes official identifier",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "UU No. 8 Tahun 1999",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "fields_present": ["text"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "id-010",
+      "category": "eu_cross_reference",
+      "description": "PDP Law cross-reference to GDPR -- Indonesia's PDP Law was modeled on the EU GDPR",
+      "tool": "get_provision_eu_basis",
+      "input": {
+        "law_identifier": "UU No. 27 Tahun 2022"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["GDPR", "General Data Protection Regulation", "2016/679", "data protection"]
+      }
+    },
+    {
+      "id": "id-011",
+      "category": "negative_test",
+      "description": "Non-existent Indonesian law returns graceful error or empty result",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "UU No. 999 Tahun 2099 Fictional Space Law",
+        "article": "1"
+      },
+      "assertions": {
+        "handles_gracefully": true
+      }
+    },
+    {
+      "id": "id-012",
+      "category": "negative_test",
+      "description": "Malformed article number returns graceful error or empty result",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "UU No. 27 Tahun 2022",
+        "article": "999ZZZ-INVALID"
+      },
+      "assertions": {
+        "handles_gracefully": true
+      }
+    }
+  ]
+}

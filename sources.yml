@@ -1,0 +1,67 @@
+# sources.yml
+schema_version: "1.0"
+mcp_name: "Indonesian Law MCP"
+jurisdiction: "ID"
+
+sources:
+  - name: "BPK RI (Badan Pemeriksa Keuangan - Audit Board of the Republic of Indonesia)"
+    authority: "Badan Pemeriksa Keuangan Republik Indonesia (BPK RI)"
+    official_portal: "https://peraturan.bpk.go.id"
+    canonical_identifier: "N/A (Indonesian legislation identified by type, number, and year, e.g., 'UU No. 27 Tahun 2022')"
+    retrieval_method: "HTML_SCRAPE"
+    api_documentation: "N/A (structured database with search and browse functionality)"
+    update_frequency: "weekly"
+    last_ingested: "PENDING_FIRST_INGEST"
+    license_or_terms:
+      type: "Government Open Data"
+      url: "https://peraturan.bpk.go.id"
+      summary: "Official repository of Indonesian laws and regulations maintained by the Audit Board (BPK RI); publicly accessible database of Undang-Undang (Laws), Peraturan Pemerintah (Government Regulations), Peraturan Presiden (Presidential Regulations), and other regulatory instruments"
+    coverage:
+      scope: "All Undang-Undang (UU/Laws), Peraturan Pemerintah (PP/Government Regulations), Peraturan Presiden (Perpres/Presidential Regulations), Peraturan Menteri (Ministerial Regulations), and the Constitution (UUD 1945); covers the PDP Law (UU 27/2022), ITE Law (UU 11/2008 as amended by UU 19/2016), Company Law (UU 40/2007), Consumer Protection (UU 8/1999), and electronic system regulations"
+      limitations: "Primarily in Bahasa Indonesia; English translations are available for some major laws but are unofficial and may lag behind Indonesian originals; implementing regulations (peraturan pelaksana) may not be immediately available after enactment; historical legislation before digitisation may be incomplete"
+    languages:
+      - "id"
+      - "en"
+
+  - name: "Jaringan Dokumentasi dan Informasi Hukum (JDIH) - Ministry of Law and Human Rights"
+    authority: "Ministry of Law and Human Rights (Kementerian Hukum dan HAM)"
+    official_portal: "https://www.peraturan.go.id"
+    canonical_identifier: "N/A"
+    retrieval_method: "HTML_SCRAPE"
+    api_documentation: "N/A"
+    update_frequency: "weekly"
+    last_ingested: "PENDING_FIRST_INGEST"
+    license_or_terms:
+      type: "Government Open Data"
+      url: "https://www.peraturan.go.id"
+      summary: "Official legal documentation and information network managed by the Ministry of Law and Human Rights; provides access to legislation, regulatory instruments, and legal documentation"
+    coverage:
+      scope: "National legal documentation including Laws (UU), Government Regulations (PP), Presidential Regulations (Perpres), Presidential Decrees (Keppres), and supplementary regulatory instruments; includes State Gazette (Lembaran Negara) and State Gazette Supplement (Tambahan Lembaran Negara) references"
+      limitations: "Some implementing regulations may not be immediately reflected; PDF format for some documents requires parsing; primarily in Bahasa Indonesia"
+    languages:
+      - "id"
+
+data_freshness:
+  automated_checks: true
+  check_frequency: "weekly"
+  last_verified: "PENDING_FIRST_INGEST"
+
+# Notes:
+# - Indonesia uses a civil law system heavily influenced by Dutch colonial law (Burgerlijk
+#   Wetboek) with elements of customary law (adat) and Islamic law
+# - The hierarchy of Indonesian legislation (per UU No. 12/2011 on Formation of Legislation):
+#   1. UUD 1945 (Constitution), 2. TAP MPR, 3. UU/Perpu (Laws/Emergency Laws),
+#   4. PP (Government Regulations), 5. Perpres (Presidential Regulations),
+#   6. Provincial Regulations, 7. District/City Regulations
+# - UU No. 27/2022 (PDP Law - Perlindungan Data Pribadi) is Indonesia's comprehensive
+#   personal data protection law, heavily influenced by the EU GDPR; enacted 17 October 2022
+#   with a 2-year transition period ending October 2024
+# - The PDP supervisory institution is still being established as of 2026; interim enforcement
+#   is handled by the Ministry of Communication and Informatics (Kominfo)
+# - UU No. 11/2008 (ITE Law) as amended by UU No. 19/2016 covers electronic information,
+#   transactions, and cybercrimes; widely used for content moderation enforcement
+# - PP No. 71/2019 governs the operation of electronic systems and electronic transactions,
+#   including data localization requirements for public electronic systems
+# - Indonesia is the largest economy in ASEAN with 270M+ people; rapidly digitalizing
+# - Bahasa Indonesia is the legally binding language; English translations are unofficial
+# - Indonesia participates in the ASEAN Framework on Personal Data Protection

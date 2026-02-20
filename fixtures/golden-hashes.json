@@ -1,0 +1,56 @@
+{
+  "$schema": "./golden-hashes.schema.json",
+  "version": "1.0",
+  "mcp_name": "Indonesian Law MCP",
+  "jurisdiction": "ID",
+  "provisions": [
+    {
+      "id": "id-hash-001",
+      "description": "Constitution (UUD 1945) Article 28G -- right to personal protection, family, honour, dignity, and property; constitutional basis for personal data protection",
+      "upstream_url": "https://peraturan.bpk.go.id/Details/267094/uud-1945",
+      "selector_hint": "Pasal 28G",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "perlindungan diri pribadi"
+    },
+    {
+      "id": "id-hash-002",
+      "description": "PDP Law (UU No. 27/2022) Article 1 -- definitions of key terms including data pribadi (personal data), pengendali data pribadi (data controller), and prosesor data pribadi (data processor)",
+      "upstream_url": "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022",
+      "selector_hint": "Pasal 1 - Ketentuan Umum",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "data pribadi"
+    },
+    {
+      "id": "id-hash-003",
+      "description": "ITE Law (UU No. 11/2008) Article 1 -- definitions of electronic information and electronic transactions",
+      "upstream_url": "https://peraturan.bpk.go.id/Details/27308/uu-no-11-tahun-2008",
+      "selector_hint": "Pasal 1 - Ketentuan Umum",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "informasi elektronik"
+    },
+    {
+      "id": "id-hash-004",
+      "description": "Company Law (UU No. 40/2007) Article 1 -- definitions including Perseroan Terbatas (limited liability company)",
+      "upstream_url": "https://peraturan.bpk.go.id/Details/40242/uu-no-40-tahun-2007",
+      "selector_hint": "Pasal 1 - Ketentuan Umum",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "Perseroan Terbatas"
+    },
+    {
+      "id": "id-hash-005",
+      "description": "Consumer Protection Law (UU No. 8/1999) Article 1 -- definitions including consumer (konsumen) and business actors (pelaku usaha)",
+      "upstream_url": "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999",
+      "selector_hint": "Pasal 1 - Ketentuan Umum",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "konsumen"
+    },
+    {
+      "id": "id-hash-006",
+      "description": "PP No. 71/2019 Article 1 -- definitions related to electronic system operations and electronic transactions",
+      "upstream_url": "https://peraturan.bpk.go.id/Details/122030/pp-no-71-tahun-2019",
+      "selector_hint": "Pasal 1 - Ketentuan Umum",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "sistem elektronik"
+    }
+  ]
+}

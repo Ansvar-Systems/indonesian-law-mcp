@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "eu.ansvar/indonesian-law-mcp",
+  "description": "Indonesian law database covering the PDP Law (Perlindungan Data Pribadi), ITE Law, Government Regulation on Electronic Systems, Company Law, and Consumer Protection with full-text search",
+  "repository": {
+    "url": "https://github.com/Ansvar-Systems/indonesian-law-mcp",
+    "source": "github"
+  },
+  "homepage": "https://ansvar.eu",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@ansvar/indonesian-law-mcp",
+      "version": "1.0.0",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}
