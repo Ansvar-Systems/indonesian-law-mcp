@@ -1,0 +1,22 @@
+{
+  "id": "pp-71-2019-pste",
+  "type": "statute",
+  "title": "Peraturan Pemerintah Nomor 71 Tahun 2019 tentang Penyelenggaraan Sistem dan Transaksi Elektronik",
+  "title_en": "Government Regulation No. 71 of 2019 on the Operation of Electronic Systems and Transactions",
+  "short_name": "PP 71/2019 PSTE",
+  "status": "in_force",
+  "issued_date": "2019-10-10",
+  "in_force_date": "2019-10-10",
+  "url": "https://peraturan.bpk.go.id/Details/131060/pp-no-71-tahun-2019",
+  "description": "Implementing regulation for electronic systems and transactions; covers data localization, electronic system registration, content moderation",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "PP 71/2019 PSTE - Summary",
+      "content": "Peraturan Pemerintah Nomor 71 Tahun 2019 tentang Penyelenggaraan Sistem dan Transaksi Elektronik\nEnglish: Government Regulation No. 71 of 2019 on the Operation of Electronic Systems and Transactions\nType: PP No. 71 of 2019\nStatus: in_force\nIssued: 2019-10-10\nIn force: 2019-10-10\nDescription: Implementing regulation for electronic systems and transactions; covers data localization, electronic system registration, content moderation\nSource: https://peraturan.bpk.go.id/Details/131060/pp-no-71-tahun-2019\nNote: Full text could not be fetched from peraturan.bpk.go.id. This seed contains metadata only. Re-run ingestion when the source is accessible."
+    }
+  ],
+  "definitions": []
+}

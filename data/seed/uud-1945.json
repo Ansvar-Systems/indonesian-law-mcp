@@ -1,0 +1,22 @@
+{
+  "id": "uud-1945",
+  "type": "statute",
+  "title": "Undang-Undang Dasar Negara Republik Indonesia Tahun 1945",
+  "title_en": "Constitution of the Republic of Indonesia 1945 (UUD 1945)",
+  "short_name": "UUD 1945",
+  "status": "in_force",
+  "issued_date": "1945-08-18",
+  "in_force_date": "1945-08-18",
+  "url": "https://peraturan.bpk.go.id/Details/41175/uud-tahun-1945",
+  "description": "Supreme law of Indonesia; Pasal 28G guarantees protection of personal and family data; Pasal 28F guarantees right to communicate and obtain information",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UUD 1945 - Summary",
+      "content": "Undang-Undang Dasar Negara Republik Indonesia Tahun 1945\nEnglish: Constitution of the Republic of Indonesia 1945 (UUD 1945)\nType: UUD No. 1945 of 1945\nStatus: in_force\nIssued: 1945-08-18\nIn force: 1945-08-18\nDescription: Supreme law of Indonesia; Pasal 28G guarantees protection of personal and family data; Pasal 28F guarantees right to communicate and obtain information\nSource: https://peraturan.bpk.go.id/Details/41175/uud-tahun-1945\nNote: Full text could not be fetched from peraturan.bpk.go.id. This seed contains metadata only. Re-run ingestion when the source is accessible."
+    }
+  ],
+  "definitions": []
+}

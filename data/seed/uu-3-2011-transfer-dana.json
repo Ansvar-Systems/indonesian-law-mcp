@@ -1,0 +1,22 @@
+{
+  "id": "uu-3-2011-transfer-dana",
+  "type": "statute",
+  "title": "Undang-Undang Nomor 3 Tahun 2011 tentang Transfer Dana",
+  "title_en": "Law No. 3 of 2011 on Fund Transfer",
+  "short_name": "UU 3/2011 Fund Transfer",
+  "status": "in_force",
+  "issued_date": "2011-03-23",
+  "in_force_date": "2011-03-23",
+  "url": "https://peraturan.bpk.go.id/Details/39126/uu-no-3-tahun-2011",
+  "description": "Fund transfer law governing electronic fund transfers, payment orders, and settlement finality",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 3/2011 Fund Transfer - Summary",
+      "content": "Undang-Undang Nomor 3 Tahun 2011 tentang Transfer Dana\nEnglish: Law No. 3 of 2011 on Fund Transfer\nType: UU No. 3 of 2011\nStatus: in_force\nIssued: 2011-03-23\nIn force: 2011-03-23\nDescription: Fund transfer law governing electronic fund transfers, payment orders, and settlement finality\nSource: https://peraturan.bpk.go.id/Details/39126/uu-no-3-tahun-2011\nNote: Full text could not be fetched from peraturan.bpk.go.id. This seed contains metadata only. Re-run ingestion when the source is accessible."
+    }
+  ],
+  "definitions": []
+}

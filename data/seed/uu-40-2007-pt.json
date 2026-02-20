@@ -1,0 +1,22 @@
+{
+  "id": "uu-40-2007-pt",
+  "type": "statute",
+  "title": "Undang-Undang Nomor 40 Tahun 2007 tentang Perseroan Terbatas",
+  "title_en": "Law No. 40 of 2007 on Limited Liability Companies",
+  "short_name": "UU 40/2007 Company",
+  "status": "in_force",
+  "issued_date": "2007-08-16",
+  "in_force_date": "2007-08-16",
+  "url": "https://peraturan.bpk.go.id/Details/39965/uu-no-40-tahun-2007",
+  "description": "Company law governing establishment, governance, and dissolution of limited liability companies (Perseroan Terbatas / PT)",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 40/2007 Company - Summary",
+      "content": "Undang-Undang Nomor 40 Tahun 2007 tentang Perseroan Terbatas\nEnglish: Law No. 40 of 2007 on Limited Liability Companies\nType: UU No. 40 of 2007\nStatus: in_force\nIssued: 2007-08-16\nIn force: 2007-08-16\nDescription: Company law governing establishment, governance, and dissolution of limited liability companies (Perseroan Terbatas / PT)\nSource: https://peraturan.bpk.go.id/Details/39965/uu-no-40-tahun-2007\nNote: Full text could not be fetched from peraturan.bpk.go.id. This seed contains metadata only. Re-run ingestion when the source is accessible."
+    }
+  ],
+  "definitions": []
+}

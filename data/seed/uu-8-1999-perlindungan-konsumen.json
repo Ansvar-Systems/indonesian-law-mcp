@@ -1,0 +1,22 @@
+{
+  "id": "uu-8-1999-perlindungan-konsumen",
+  "type": "statute",
+  "title": "Undang-Undang Nomor 8 Tahun 1999 tentang Perlindungan Konsumen",
+  "title_en": "Law No. 8 of 1999 on Consumer Protection",
+  "short_name": "UU 8/1999 Consumer",
+  "status": "in_force",
+  "issued_date": "1999-04-20",
+  "in_force_date": "2000-04-20",
+  "url": "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999",
+  "description": "Consumer protection law establishing consumer rights, business obligations, and dispute resolution mechanisms",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 8/1999 Consumer - Summary",
+      "content": "Undang-Undang Nomor 8 Tahun 1999 tentang Perlindungan Konsumen\nEnglish: Law No. 8 of 1999 on Consumer Protection\nType: UU No. 8 of 1999\nStatus: in_force\nIssued: 1999-04-20\nIn force: 2000-04-20\nDescription: Consumer protection law establishing consumer rights, business obligations, and dispute resolution mechanisms\nSource: https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999\nNote: Full text could not be fetched from peraturan.bpk.go.id. This seed contains metadata only. Re-run ingestion when the source is accessible."
+    }
+  ],
+  "definitions": []
+}

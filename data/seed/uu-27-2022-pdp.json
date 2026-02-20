@@ -1,0 +1,22 @@
+{
+  "id": "uu-27-2022-pdp",
+  "type": "statute",
+  "title": "Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi",
+  "title_en": "Law No. 27 of 2022 on Personal Data Protection (PDP Law)",
+  "short_name": "UU 27/2022 PDP",
+  "status": "in_force",
+  "issued_date": "2022-10-17",
+  "in_force_date": "2022-10-17",
+  "url": "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022",
+  "description": "Comprehensive personal data protection law (Perlindungan Data Pribadi); Indonesia's equivalent of the EU GDPR with a 2-year transition period ending October 2024",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 27/2022 PDP - Summary",
+      "content": "Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi\nEnglish: Law No. 27 of 2022 on Personal Data Protection (PDP Law)\nType: UU No. 27 of 2022\nStatus: in_force\nIssued: 2022-10-17\nIn force: 2022-10-17\nDescription: Comprehensive personal data protection law (Perlindungan Data Pribadi); Indonesia's equivalent of the EU GDPR with a 2-year transition period ending October 2024\nSource: https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022\nNote: Full text could not be fetched from peraturan.bpk.go.id. This seed contains metadata only. Re-run ingestion when the source is accessible."
+    }
+  ],
+  "definitions": []
+}

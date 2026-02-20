@@ -1,0 +1,22 @@
+{
+  "id": "uu-19-2016-ite-amendment",
+  "type": "statute",
+  "title": "Undang-Undang Nomor 19 Tahun 2016 tentang Perubahan atas UU Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik",
+  "title_en": "Law No. 19 of 2016 amending Law No. 11 of 2008 on Electronic Information and Transactions",
+  "short_name": "UU 19/2016 ITE Amdt",
+  "status": "in_force",
+  "issued_date": "2016-11-25",
+  "in_force_date": "2016-11-25",
+  "url": "https://peraturan.bpk.go.id/Details/37582/uu-no-19-tahun-2016",
+  "description": "Amendment to the ITE Law; revised defamation provisions, added right to be forgotten, strengthened electronic evidence rules",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 19/2016 ITE Amdt - Summary",
+      "content": "Undang-Undang Nomor 19 Tahun 2016 tentang Perubahan atas UU Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik\nEnglish: Law No. 19 of 2016 amending Law No. 11 of 2008 on Electronic Information and Transactions\nType: UU No. 19 of 2016\nStatus: in_force\nIssued: 2016-11-25\nIn force: 2016-11-25\nDescription: Amendment to the ITE Law; revised defamation provisions, added right to be forgotten, strengthened electronic evidence rules\nSource: https://peraturan.bpk.go.id/Details/37582/uu-no-19-tahun-2016\nNote: Full text could not be fetched from peraturan.bpk.go.id. This seed contains metadata only. Re-run ingestion when the source is accessible."
+    }
+  ],
+  "definitions": []
+}

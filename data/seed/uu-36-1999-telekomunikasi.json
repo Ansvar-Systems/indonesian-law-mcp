@@ -1,0 +1,22 @@
+{
+  "id": "uu-36-1999-telekomunikasi",
+  "type": "statute",
+  "title": "Undang-Undang Nomor 36 Tahun 1999 tentang Telekomunikasi",
+  "title_en": "Law No. 36 of 1999 on Telecommunications",
+  "short_name": "UU 36/1999 Telecom",
+  "status": "in_force",
+  "issued_date": "1999-09-08",
+  "in_force_date": "2000-09-08",
+  "url": "https://peraturan.bpk.go.id/Details/45196/uu-no-36-tahun-1999",
+  "description": "Telecommunications law regulating telecom operators, spectrum management, and interconnection; foundation for digital infrastructure regulation",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 36/1999 Telecom - Summary",
+      "content": "Undang-Undang Nomor 36 Tahun 1999 tentang Telekomunikasi\nEnglish: Law No. 36 of 1999 on Telecommunications\nType: UU No. 36 of 1999\nStatus: in_force\nIssued: 1999-09-08\nIn force: 2000-09-08\nDescription: Telecommunications law regulating telecom operators, spectrum management, and interconnection; foundation for digital infrastructure regulation\nSource: https://peraturan.bpk.go.id/Details/45196/uu-no-36-tahun-1999\nNote: Full text could not be fetched from peraturan.bpk.go.id. This seed contains metadata only. Re-run ingestion when the source is accessible."
+    }
+  ],
+  "definitions": []
+}

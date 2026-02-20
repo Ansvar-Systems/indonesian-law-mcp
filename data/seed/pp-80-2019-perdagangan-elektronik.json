@@ -1,0 +1,22 @@
+{
+  "id": "pp-80-2019-perdagangan-elektronik",
+  "type": "statute",
+  "title": "Peraturan Pemerintah Nomor 80 Tahun 2019 tentang Perdagangan Melalui Sistem Elektronik",
+  "title_en": "Government Regulation No. 80 of 2019 on E-Commerce",
+  "short_name": "PP 80/2019 E-Commerce",
+  "status": "in_force",
+  "issued_date": "2019-11-25",
+  "in_force_date": "2019-11-25",
+  "url": "https://peraturan.bpk.go.id/Details/133007/pp-no-80-tahun-2019",
+  "description": "E-commerce regulation covering online marketplace obligations, consumer protection in e-commerce, cross-border e-commerce, and business licensing requirements",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "PP 80/2019 E-Commerce - Summary",
+      "content": "Peraturan Pemerintah Nomor 80 Tahun 2019 tentang Perdagangan Melalui Sistem Elektronik\nEnglish: Government Regulation No. 80 of 2019 on E-Commerce\nType: PP No. 80 of 2019\nStatus: in_force\nIssued: 2019-11-25\nIn force: 2019-11-25\nDescription: E-commerce regulation covering online marketplace obligations, consumer protection in e-commerce, cross-border e-commerce, and business licensing requirements\nSource: https://peraturan.bpk.go.id/Details/133007/pp-no-80-tahun-2019\nNote: Full text could not be fetched from peraturan.bpk.go.id. This seed contains metadata only. Re-run ingestion when the source is accessible."
+    }
+  ],
+  "definitions": []
+}
