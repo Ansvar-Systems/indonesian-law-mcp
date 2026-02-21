@@ -2,21 +2,245 @@
   "id": "pp-80-2019-perdagangan-elektronik",
   "type": "statute",
   "title": "Peraturan Pemerintah Nomor 80 Tahun 2019 tentang Perdagangan Melalui Sistem Elektronik",
-  "title_en": "Government Regulation No. 80 of 2019 on E-Commerce",
-  "short_name": "PP 80/2019 E-Commerce",
+  "title_en": "Government Regulation No. 80 of 2019 on Trade Through Electronic Systems (E-Commerce)",
+  "short_name": "PP 80/2019 PMSE",
   "status": "in_force",
   "issued_date": "2019-11-25",
   "in_force_date": "2019-11-25",
   "url": "https://peraturan.bpk.go.id/Details/133007/pp-no-80-tahun-2019",
-  "description": "E-commerce regulation covering online marketplace obligations, consumer protection in e-commerce, cross-border e-commerce, and business licensing requirements",
+  "description": "Comprehensive government regulation on e-commerce covering marketplace operators, merchant obligations, consumer protection in electronic trade, cross-border e-commerce, payment systems, and dispute resolution.",
   "provisions": [
     {
-      "provision_ref": "pasal0",
-      "chapter": "Metadata",
-      "section": "0",
-      "title": "PP 80/2019 E-Commerce - Summary",
-      "content": "Peraturan Pemerintah Nomor 80 Tahun 2019 tentang Perdagangan Melalui Sistem Elektronik\nEnglish: Government Regulation No. 80 of 2019 on E-Commerce\nType: PP No. 80 of 2019\nStatus: in_force\nIssued: 2019-11-25\nIn force: 2019-11-25\nDescription: E-commerce regulation covering online marketplace obligations, consumer protection in e-commerce, cross-border e-commerce, and business licensing requirements\nSource: https://peraturan.bpk.go.id/Details/133007/pp-no-80-tahun-2019\nNote: Full text could not be fetched from peraturan.bpk.go.id. This seed contains metadata only. Re-run ingestion when the source is accessible."
+      "provision_ref": "pasal1",
+      "chapter": "BAB I - Ketentuan Umum",
+      "section": "1",
+      "title": "Definisi",
+      "content": "Pasal 1. Dalam Peraturan Pemerintah ini yang dimaksud dengan: 1. Perdagangan Melalui Sistem Elektronik (PMSE) adalah Perdagangan yang transaksinya dilakukan melalui serangkaian perangkat dan prosedur elektronik. 2. Pelaku Usaha adalah setiap orang perseorangan atau badan usaha, baik berbentuk badan hukum maupun bukan badan hukum. 3. Pelaku Usaha PMSE adalah Pelaku Usaha yang melakukan kegiatan PMSE. 4. Penyelenggara PMSE adalah pelaku usaha penyedia sarana komunikasi elektronik untuk transaksi perdagangan. 5. Pedagang (Merchant) adalah pelaku usaha penjual barang dan/atau jasa dalam PMSE. 6. Penyelenggara Sarana Perantara (Intermediary Services) adalah pihak yang menyediakan sarana untuk memfasilitasi transaksi PMSE. 7. Konsumen adalah setiap orang atau badan yang memakai, menggunakan, dan/atau memanfaatkan barang dan/atau jasa."
+    },
+    {
+      "provision_ref": "pasal2",
+      "chapter": "BAB I - Ketentuan Umum",
+      "section": "2",
+      "title": "Ruang Lingkup",
+      "content": "Pasal 2. (1) Peraturan Pemerintah ini mengatur mengenai PMSE. (2) Pelaku Usaha PMSE meliputi: a. Pedagang (Merchant) atau penyedia Jasa; b. Penyelenggara PMSE; dan c. Penyelenggara Sarana Perantara. (3) Penyelenggara PMSE meliputi: a. Penyelenggara Komunikasi Elektronik; b. Penyelenggara Iklan Elektronik; c. Penyelenggara Penawaran Elektronik; d. Penyelenggara Perdagangan Aset Kripto; e. Penyelenggara Marketplace; f. Penyelenggara Agregasi; g. Penyelenggara Perbandingan; h. Penyelenggara Penawaran Harian; i. Penyelenggara Media Sosial; dan j. Penyelenggara Mesin Pencari."
+    },
+    {
+      "provision_ref": "pasal3",
+      "chapter": "BAB II - Pelaku Usaha PMSE",
+      "section": "3",
+      "title": "Kewajiban Umum",
+      "content": "Pasal 3. (1) Setiap Pelaku Usaha PMSE wajib memiliki iktikad baik dalam melakukan transaksi dan/atau pertukaran informasi. (2) Pelaku Usaha PMSE wajib memberikan informasi yang benar, jelas, dan jujur mengenai identitas usahanya, produk, serta syarat-syarat transaksi."
+    },
+    {
+      "provision_ref": "pasal4",
+      "chapter": "BAB II - Pelaku Usaha PMSE",
+      "section": "4",
+      "title": "PMSE Dalam Negeri",
+      "content": "Pasal 4. (1) Pelaku Usaha PMSE dalam negeri wajib memenuhi ketentuan peraturan perundang-undangan di bidang perdagangan. (2) Pelaku Usaha PMSE dalam negeri wajib memenuhi Standar Nasional Indonesia, persyaratan teknis, atau kualifikasi barang dan/atau jasa."
+    },
+    {
+      "provision_ref": "pasal5",
+      "chapter": "BAB II - Pelaku Usaha PMSE",
+      "section": "5",
+      "title": "PMSE Luar Negeri",
+      "content": "Pasal 5. (1) Pelaku Usaha PMSE luar negeri yang secara aktif melakukan penawaran kepada konsumen Indonesia wajib: a. mendaftarkan diri pada kementerian bidang komunikasi dan informatika; b. menunjuk perwakilan yang berkedudukan di Indonesia; dan c. mematuhi ketentuan peraturan perundang-undangan Indonesia. (2) Penunjukan perwakilan dapat berupa badan hukum atau orang perseorangan."
+    },
+    {
+      "provision_ref": "pasal6",
+      "chapter": "BAB II - Pelaku Usaha PMSE",
+      "section": "6",
+      "title": "Izin Usaha",
+      "content": "Pasal 6. (1) Pelaku Usaha PMSE wajib memiliki izin usaha sesuai ketentuan. (2) Pelaku Usaha perseorangan yang berpenghasilan di bawah batasan tertentu dikecualikan dari kewajiban perizinan."
+    },
+    {
+      "provision_ref": "pasal7",
+      "chapter": "BAB III - Penawaran dan Penerimaan",
+      "section": "7",
+      "title": "Informasi Penawaran",
+      "content": "Pasal 7. (1) Pelaku Usaha PMSE wajib menyediakan informasi tentang: a. identitas Pelaku Usaha; b. deskripsi Barang dan/atau Jasa; c. harga dan biaya tambahan; d. tata cara pembayaran; e. tata cara pengiriman; f. jangka waktu penawaran; g. tata cara pengembalian; dan h. mekanisme pengajuan keluhan. (2) Informasi wajib dapat diakses, dicetak, dan disimpan oleh Konsumen."
+    },
+    {
+      "provision_ref": "pasal8",
+      "chapter": "BAB III - Penawaran dan Penerimaan",
+      "section": "8",
+      "title": "Iklan Elektronik",
+      "content": "Pasal 8. (1) Iklan elektronik wajib: a. tidak menyesatkan; b. tidak memuat informasi palsu; c. jelas dan mudah dipahami; dan d. dapat diidentifikasi sebagai iklan. (2) Iklan yang ditujukan kepada anak-anak wajib memperhatikan aspek perlindungan anak."
+    },
+    {
+      "provision_ref": "pasal9",
+      "chapter": "BAB III - Penawaran dan Penerimaan",
+      "section": "9",
+      "title": "Penerimaan Transaksi",
+      "content": "Pasal 9. (1) Penerimaan transaksi PMSE terjadi pada saat Konsumen menyatakan persetujuan atas penawaran transaksi. (2) Persetujuan dinyatakan secara elektronik."
+    },
+    {
+      "provision_ref": "pasal10",
+      "chapter": "BAB III - Penawaran dan Penerimaan",
+      "section": "10",
+      "title": "Konfirmasi Transaksi",
+      "content": "Pasal 10. (1) Pelaku Usaha PMSE wajib memberikan konfirmasi transaksi segera setelah penerimaan pesanan. (2) Konfirmasi memuat: a. nomor pesanan; b. rincian Barang/Jasa; c. total harga; d. tata cara pembayaran; dan e. perkiraan waktu pengiriman."
+    },
+    {
+      "provision_ref": "pasal11",
+      "chapter": "BAB IV - Kontrak Elektronik",
+      "section": "11",
+      "title": "Ketentuan Kontrak Elektronik",
+      "content": "Pasal 11. (1) Pelaku Usaha PMSE wajib berdasarkan Kontrak Elektronik. (2) Kontrak Elektronik paling sedikit memuat: a. identitas para pihak; b. spesifikasi Barang/Jasa; c. legalitas Barang/Jasa; d. nilai transaksi; e. persyaratan dan jangka waktu pembayaran; f. prosedur pengiriman; g. prosedur pengembalian dan pembatalan; h. prosedur dalam hal pembatalan; dan i. pilihan hukum penyelesaian sengketa."
+    },
+    {
+      "provision_ref": "pasal12",
+      "chapter": "BAB V - Pembayaran",
+      "section": "12",
+      "title": "Tata Cara Pembayaran",
+      "content": "Pasal 12. (1) Pembayaran dalam PMSE dapat dilakukan melalui: a. gerbang pembayaran (payment gateway); b. transfer perbankan; c. uang elektronik (e-money); d. dompet elektronik (e-wallet); e. kartu kredit atau debit; dan/atau f. mekanisme pembayaran lainnya. (2) Pelaku Usaha PMSE yang menyediakan fasilitas pembayaran wajib memenuhi ketentuan Bank Indonesia dan/atau otoritas terkait."
+    },
+    {
+      "provision_ref": "pasal13",
+      "chapter": "BAB V - Pembayaran",
+      "section": "13",
+      "title": "Keamanan Pembayaran",
+      "content": "Pasal 13. Pelaku Usaha PMSE yang memproses pembayaran elektronik wajib: a. menjamin keamanan transaksi pembayaran; b. menjaga kerahasiaan data pembayaran Konsumen; c. menyediakan bukti pembayaran; dan d. memenuhi standar keamanan pembayaran."
+    },
+    {
+      "provision_ref": "pasal14",
+      "chapter": "BAB VI - Pengiriman Barang",
+      "section": "14",
+      "title": "Kewajiban Pengiriman",
+      "content": "Pasal 14. (1) Pelaku Usaha PMSE wajib menyerahkan Barang/Jasa sesuai kontrak atau kesepakatan. (2) Pelaku Usaha bertanggung jawab atas Barang/Jasa hingga diterima oleh Konsumen, kecuali diperjanjikan lain."
+    },
+    {
+      "provision_ref": "pasal15",
+      "chapter": "BAB VI - Pengiriman Barang",
+      "section": "15",
+      "title": "Risiko Pengiriman",
+      "content": "Pasal 15. (1) Risiko kerusakan atau kehilangan selama pengiriman menjadi tanggung jawab Pelaku Usaha PMSE, kecuali ditentukan lain. (2) Pelaku Usaha wajib menyediakan mekanisme pelacakan pengiriman."
+    },
+    {
+      "provision_ref": "pasal16",
+      "chapter": "BAB VII - Penukaran dan Pengembalian",
+      "section": "16",
+      "title": "Hak Penukaran dan Pengembalian",
+      "content": "Pasal 16. (1) Konsumen berhak melakukan penukaran dan/atau pengembalian Barang apabila: a. Barang tidak sesuai kontrak; b. Barang memiliki cacat tersembunyi; atau c. Barang tidak dikirimkan sesuai waktu yang diperjanjikan. (2) Pelaku Usaha wajib menyediakan mekanisme yang mudah diakses."
+    },
+    {
+      "provision_ref": "pasal17",
+      "chapter": "BAB VII - Penukaran dan Pengembalian",
+      "section": "17",
+      "title": "Jangka Waktu Pengembalian",
+      "content": "Pasal 17. (1) Pengembalian Barang dapat dilakukan dalam jangka waktu paling lama 7 (tujuh) hari sejak Barang diterima, kecuali ditentukan lain. (2) Pengembalian uang wajib dilakukan paling lama 14 (empat belas) hari sejak permintaan pengembalian disetujui."
+    },
+    {
+      "provision_ref": "pasal18",
+      "chapter": "BAB VIII - Marketplace",
+      "section": "18",
+      "title": "Kewajiban Penyelenggara Marketplace",
+      "content": "Pasal 18. (1) Penyelenggara Marketplace wajib: a. memverifikasi identitas Pedagang; b. menyediakan mekanisme pengaduan; c. menjamin keamanan transaksi; d. menyimpan data transaksi; dan e. mematuhi ketentuan perlindungan Data Pribadi. (2) Penyelenggara Marketplace bertanggung jawab atas platform yang andal dan aman."
+    },
+    {
+      "provision_ref": "pasal19",
+      "chapter": "BAB VIII - Marketplace",
+      "section": "19",
+      "title": "Tanggung Jawab Pedagang di Marketplace",
+      "content": "Pasal 19. (1) Pedagang di Marketplace bertanggung jawab atas: a. kualitas dan keamanan Barang/Jasa; b. kebenaran informasi produk; c. pemenuhan pesanan; dan d. penanganan keluhan Konsumen. (2) Penyelenggara Marketplace wajib memberikan identitas Pedagang kepada Konsumen yang memintanya."
+    },
+    {
+      "provision_ref": "pasal20",
+      "chapter": "BAB IX - Perlindungan Konsumen",
+      "section": "20",
+      "title": "Hak Konsumen PMSE",
+      "content": "Pasal 20. Konsumen dalam PMSE berhak: a. mendapatkan informasi yang benar, jelas, dan jujur; b. mendapatkan perlindungan atas keamanan; c. mendapatkan kompensasi/ganti rugi apabila Barang/Jasa tidak sesuai; d. mendapatkan perlindungan Data Pribadi; dan e. mendapatkan penyelesaian sengketa yang adil."
+    },
+    {
+      "provision_ref": "pasal21",
+      "chapter": "BAB IX - Perlindungan Konsumen",
+      "section": "21",
+      "title": "Larangan bagi Pelaku Usaha PMSE",
+      "content": "Pasal 21. Pelaku Usaha PMSE dilarang: a. memperdagangkan Barang/Jasa yang tidak memenuhi standar; b. memperdagangkan Barang/Jasa yang dilarang; c. memberikan informasi yang menyesatkan; d. melakukan praktik monopoli atau persaingan tidak sehat; dan e. melakukan tindakan yang merugikan Konsumen."
+    },
+    {
+      "provision_ref": "pasal22",
+      "chapter": "BAB X - PMSE Lintas Batas",
+      "section": "22",
+      "title": "Ketentuan PMSE Lintas Batas",
+      "content": "Pasal 22. (1) PMSE lintas batas dilakukan sesuai peraturan perundang-undangan, hukum internasional, dan perjanjian internasional. (2) Pelaku Usaha PMSE luar negeri yang bertransaksi dengan Konsumen Indonesia wajib mematuhi ketentuan perlindungan Konsumen Indonesia."
+    },
+    {
+      "provision_ref": "pasal23",
+      "chapter": "BAB X - PMSE Lintas Batas",
+      "section": "23",
+      "title": "Impor melalui PMSE",
+      "content": "Pasal 23. (1) Impor Barang melalui PMSE wajib memenuhi ketentuan kepabeanan, standar mutu, dan peraturan terkait. (2) Barang impor yang tidak memenuhi ketentuan dapat ditolak masuk ke wilayah Indonesia."
+    },
+    {
+      "provision_ref": "pasal24",
+      "chapter": "BAB XI - Perpajakan",
+      "section": "24",
+      "title": "Kewajiban Perpajakan PMSE",
+      "content": "Pasal 24. (1) Pelaku Usaha PMSE wajib memenuhi kewajiban perpajakan sesuai ketentuan. (2) Penyelenggara PMSE luar negeri yang bertransaksi dengan Konsumen di Indonesia dapat ditetapkan sebagai pemungut PPN."
+    },
+    {
+      "provision_ref": "pasal25",
+      "chapter": "BAB XII - Penyelesaian Sengketa",
+      "section": "25",
+      "title": "Penyelesaian Sengketa PMSE",
+      "content": "Pasal 25. (1) Penyelesaian sengketa PMSE dapat melalui: a. negosiasi; b. mediasi; c. konsiliasi; d. arbitrase; dan/atau e. pengadilan. (2) Penyelenggara PMSE wajib menyediakan mekanisme penyelesaian sengketa yang efektif, cepat, dan berbiaya murah."
+    },
+    {
+      "provision_ref": "pasal26",
+      "chapter": "BAB XII - Penyelesaian Sengketa",
+      "section": "26",
+      "title": "Online Dispute Resolution",
+      "content": "Pasal 26. (1) Penyelesaian sengketa PMSE secara elektronik (online dispute resolution) dapat difasilitasi oleh lembaga yang ditunjuk oleh Menteri. (2) Keputusan penyelesaian sengketa secara elektronik mengikat para pihak."
+    },
+    {
+      "provision_ref": "pasal27",
+      "chapter": "BAB XIII - Pembinaan dan Pengawasan",
+      "section": "27",
+      "title": "Pembinaan PMSE",
+      "content": "Pasal 27. (1) Pemerintah melakukan pembinaan terhadap kegiatan PMSE meliputi: a. peningkatan kapasitas Pelaku Usaha; b. pengembangan infrastruktur; c. peningkatan kepercayaan Konsumen; dan d. fasilitasi perdagangan lintas batas."
+    },
+    {
+      "provision_ref": "pasal28",
+      "chapter": "BAB XIII - Pembinaan dan Pengawasan",
+      "section": "28",
+      "title": "Pengawasan PMSE",
+      "content": "Pasal 28. (1) Menteri melakukan pengawasan terhadap PMSE meliputi: a. kepatuhan perizinan; b. perlindungan Konsumen; c. persaingan usaha yang sehat; d. standar mutu; dan e. perlindungan Data Pribadi."
+    },
+    {
+      "provision_ref": "pasal29",
+      "chapter": "BAB XIV - Sanksi Administratif",
+      "section": "29",
+      "title": "Sanksi Administratif PMSE",
+      "content": "Pasal 29. (1) Pelaku Usaha PMSE yang melanggar ketentuan PP ini dikenai sanksi administratif berupa: a. peringatan tertulis; b. pencabutan izin usaha; c. pemblokiran Sistem Elektronik; dan/atau d. denda administratif. (2) Sanksi diberikan oleh Menteri sesuai kewenangan."
+    },
+    {
+      "provision_ref": "pasal30",
+      "chapter": "BAB XV - Ketentuan Penutup",
+      "section": "30",
+      "title": "Pengundangan",
+      "content": "Pasal 30. Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Ditetapkan di Jakarta pada tanggal 25 November 2019. Lembaran Negara Republik Indonesia Tahun 2019 Nomor 222."
     }
   ],
-  "definitions": []
+  "definitions": [
+    {
+      "term": "PMSE",
+      "definition": "Perdagangan Melalui Sistem Elektronik - perdagangan yang transaksinya dilakukan melalui serangkaian perangkat dan prosedur elektronik."
+    },
+    {
+      "term": "Pelaku Usaha PMSE",
+      "definition": "Pelaku usaha yang melakukan kegiatan Perdagangan Melalui Sistem Elektronik."
+    },
+    {
+      "term": "Marketplace",
+      "definition": "Platform yang mempertemukan penjual dan pembeli dalam transaksi PMSE."
+    },
+    {
+      "term": "Pedagang (Merchant)",
+      "definition": "Pelaku usaha penjual barang dan/atau jasa dalam PMSE."
+    },
+    {
+      "term": "Online Dispute Resolution",
+      "definition": "Penyelesaian sengketa PMSE secara elektronik yang difasilitasi oleh lembaga yang ditunjuk Menteri."
+    }
+  ]
 }

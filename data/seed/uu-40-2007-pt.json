@@ -3,20 +3,202 @@
   "type": "statute",
   "title": "Undang-Undang Nomor 40 Tahun 2007 tentang Perseroan Terbatas",
   "title_en": "Law No. 40 of 2007 on Limited Liability Companies",
-  "short_name": "UU 40/2007 Company",
+  "short_name": "UU PT",
   "status": "in_force",
   "issued_date": "2007-08-16",
   "in_force_date": "2007-08-16",
   "url": "https://peraturan.bpk.go.id/Details/39965/uu-no-40-tahun-2007",
-  "description": "Company law governing establishment, governance, and dissolution of limited liability companies (Perseroan Terbatas / PT)",
+  "description": "Indonesia's company law governing the establishment, governance, capital structure, directors' duties, shareholders' rights, and dissolution of limited liability companies (Perseroan Terbatas / PT). Key provisions on corporate governance, data management, and fiduciary duties.",
   "provisions": [
     {
-      "provision_ref": "pasal0",
-      "chapter": "Metadata",
-      "section": "0",
-      "title": "UU 40/2007 Company - Summary",
-      "content": "Undang-Undang Nomor 40 Tahun 2007 tentang Perseroan Terbatas\nEnglish: Law No. 40 of 2007 on Limited Liability Companies\nType: UU No. 40 of 2007\nStatus: in_force\nIssued: 2007-08-16\nIn force: 2007-08-16\nDescription: Company law governing establishment, governance, and dissolution of limited liability companies (Perseroan Terbatas / PT)\nSource: https://peraturan.bpk.go.id/Details/39965/uu-no-40-tahun-2007\nNote: Full text could not be fetched from peraturan.bpk.go.id. This seed contains metadata only. Re-run ingestion when the source is accessible."
+      "provision_ref": "pasal1",
+      "chapter": "BAB I - Ketentuan Umum",
+      "section": "1",
+      "title": "Definisi",
+      "content": "Pasal 1. Dalam Undang-Undang ini yang dimaksud dengan: 1. Perseroan Terbatas, yang selanjutnya disebut Perseroan, adalah badan hukum yang merupakan persekutuan modal, didirikan berdasarkan perjanjian, melakukan kegiatan usaha dengan modal dasar yang seluruhnya terbagi dalam saham dan memenuhi persyaratan yang ditetapkan dalam Undang-Undang ini serta peraturan pelaksanaannya. 2. Organ Perseroan adalah Rapat Umum Pemegang Saham, Direksi, dan Dewan Komisaris. 3. Rapat Umum Pemegang Saham, yang selanjutnya disebut RUPS, adalah Organ Perseroan yang mempunyai wewenang yang tidak diberikan kepada Direksi atau Dewan Komisaris dalam batas yang ditentukan dalam Undang-Undang ini dan/atau anggaran dasar. 4. Direksi adalah Organ Perseroan yang berwenang dan bertanggung jawab penuh atas pengurusan Perseroan untuk kepentingan Perseroan, sesuai dengan maksud dan tujuan Perseroan serta mewakili Perseroan. 5. Dewan Komisaris adalah Organ Perseroan yang bertugas melakukan pengawasan secara umum dan/atau khusus sesuai dengan anggaran dasar serta memberi nasihat kepada Direksi. 6. Perseroan Terbuka adalah Perseroan Publik atau Perseroan yang melakukan penawaran umum saham, sesuai dengan ketentuan peraturan perundang-undangan di bidang pasar modal."
+    },
+    {
+      "provision_ref": "pasal2",
+      "chapter": "BAB I - Ketentuan Umum",
+      "section": "2",
+      "title": "Kegiatan Usaha",
+      "content": "Pasal 2. Perseroan harus mempunyai maksud dan tujuan serta kegiatan usaha yang tidak bertentangan dengan ketentuan peraturan perundang-undangan, ketertiban umum, dan/atau kesusilaan."
+    },
+    {
+      "provision_ref": "pasal3",
+      "chapter": "BAB I - Ketentuan Umum",
+      "section": "3",
+      "title": "Tanggung Jawab Terbatas",
+      "content": "Pasal 3. (1) Pemegang saham Perseroan tidak bertanggung jawab secara pribadi atas perikatan yang dibuat atas nama Perseroan dan tidak bertanggung jawab atas kerugian Perseroan melebihi saham yang dimiliki. (2) Ketentuan sebagaimana dimaksud pada ayat (1) tidak berlaku apabila: a. persyaratan Perseroan sebagai badan hukum belum atau tidak terpenuhi; b. pemegang saham yang bersangkutan baik langsung maupun tidak langsung dengan iktikad buruk memanfaatkan Perseroan untuk kepentingan pribadi; c. pemegang saham yang bersangkutan terlibat dalam perbuatan melawan hukum yang dilakukan oleh Perseroan; atau d. pemegang saham yang bersangkutan baik langsung maupun tidak langsung secara melawan hukum menggunakan kekayaan Perseroan."
+    },
+    {
+      "provision_ref": "pasal7",
+      "chapter": "BAB II - Pendirian Perseroan",
+      "section": "7",
+      "title": "Pendirian",
+      "content": "Pasal 7. (1) Perseroan didirikan oleh 2 (dua) orang atau lebih dengan akta notaris yang dibuat dalam bahasa Indonesia. (2) Setiap pendiri Perseroan wajib mengambil bagian saham pada saat Perseroan didirikan. (3) Ketentuan sebagaimana dimaksud pada ayat (2) tidak berlaku dalam rangka Peleburan. (4) Perseroan memperoleh status badan hukum pada tanggal diterbitkannya Keputusan Menteri mengenai pengesahan badan hukum Perseroan. (5) Setelah Perseroan memperoleh status badan hukum dan pemegang saham menjadi kurang dari 2 (dua) orang, dalam jangka waktu paling lama 6 (enam) bulan terhitung sejak keadaan tersebut pemegang saham yang bersangkutan wajib mengalihkan sebagian sahamnya kepada orang lain atau Perseroan mengeluarkan saham baru kepada orang lain."
+    },
+    {
+      "provision_ref": "pasal8",
+      "chapter": "BAB II - Pendirian Perseroan",
+      "section": "8",
+      "title": "Akta Pendirian",
+      "content": "Pasal 8. (1) Akta pendirian memuat anggaran dasar dan keterangan lain berkaitan dengan pendirian Perseroan. (2) Keterangan lain sebagaimana dimaksud pada ayat (1) memuat sekurang-kurangnya: a. nama lengkap, tempat dan tanggal lahir, pekerjaan, tempat tinggal, dan kewarganegaraan pendiri perseorangan, atau nama, tempat kedudukan dan alamat lengkap serta nomor dan tanggal Keputusan Menteri mengenai pengesahan badan hukum dari pendiri Perseroan; b. nama lengkap, tempat dan tanggal lahir, pekerjaan, tempat tinggal, kewarganegaraan anggota Direksi dan Dewan Komisaris yang pertama kali diangkat; c. nama pemegang saham yang telah mengambil bagian saham, rincian jumlah saham, dan nilai nominal saham yang telah ditempatkan dan disetor."
+    },
+    {
+      "provision_ref": "pasal15",
+      "chapter": "BAB II - Pendirian Perseroan",
+      "section": "15",
+      "title": "Anggaran Dasar",
+      "content": "Pasal 15. (1) Anggaran dasar sebagaimana dimaksud dalam Pasal 8 ayat (1) memuat sekurang-kurangnya: a. nama dan tempat kedudukan Perseroan; b. maksud dan tujuan serta kegiatan usaha Perseroan; c. jangka waktu berdirinya Perseroan; d. besarnya jumlah modal dasar, modal ditempatkan, dan modal disetor; e. jumlah saham, klasifikasi saham apabila ada berikut jumlah saham untuk tiap klasifikasi, hak-hak yang melekat pada setiap saham, dan nilai nominal setiap saham; f. nama jabatan dan jumlah anggota Direksi dan Dewan Komisaris; g. penetapan tempat dan tata cara penyelenggaraan RUPS; h. tata cara pengangkatan, penggantian, pemberhentian anggota Direksi dan Dewan Komisaris; i. tata cara penggunaan laba dan pembagian dividen."
+    },
+    {
+      "provision_ref": "pasal66",
+      "chapter": "BAB IV - Rencana Kerja, Laporan Tahunan, dan Penggunaan Laba",
+      "section": "66",
+      "title": "Laporan Tahunan",
+      "content": "Pasal 66. (1) Direksi menyampaikan laporan tahunan kepada RUPS setelah ditelaah oleh Dewan Komisaris dalam jangka waktu paling lambat 6 (enam) bulan setelah tahun buku Perseroan berakhir. (2) Laporan tahunan sebagaimana dimaksud pada ayat (1) harus memuat sekurang-kurangnya: a. laporan keuangan yang terdiri atas sekurang-kurangnya neraca akhir tahun buku yang baru lampau dalam perbandingan dengan tahun buku sebelumnya, laporan laba rugi dari tahun buku yang bersangkutan, laporan arus kas, dan laporan perubahan ekuitas, serta catatan atas laporan keuangan tersebut; b. laporan mengenai kegiatan Perseroan; c. laporan pelaksanaan Tanggung Jawab Sosial dan Lingkungan; d. rincian masalah yang timbul selama tahun buku yang mempengaruhi kegiatan usaha Perseroan; e. laporan mengenai tugas pengawasan yang telah dilaksanakan oleh Dewan Komisaris selama tahun buku yang baru lampau; f. nama anggota Direksi dan anggota Dewan Komisaris; g. gaji dan tunjangan bagi anggota Direksi dan gaji atau honorarium dan tunjangan bagi anggota Dewan Komisaris Perseroan untuk tahun yang baru lampau."
+    },
+    {
+      "provision_ref": "pasal67",
+      "chapter": "BAB IV - Rencana Kerja, Laporan Tahunan, dan Penggunaan Laba",
+      "section": "67",
+      "title": "Persetujuan Laporan Tahunan",
+      "content": "Pasal 67. (1) Laporan tahunan sebagaimana dimaksud dalam Pasal 66 ditandatangani oleh semua anggota Direksi dan semua anggota Dewan Komisaris yang menjabat pada tahun buku yang bersangkutan dan disediakan di kantor Perseroan sejak tanggal panggilan RUPS untuk dapat diperiksa oleh pemegang saham. (2) Dalam hal terdapat anggota Direksi atau anggota Dewan Komisaris yang tidak menandatangani laporan tahunan sebagaimana dimaksud pada ayat (1), yang bersangkutan harus menyebutkan alasannya secara tertulis, atau alasan tersebut dinyatakan oleh Direksi dalam surat tersendiri yang dilekatkan dalam laporan tahunan."
+    },
+    {
+      "provision_ref": "pasal68",
+      "chapter": "BAB IV - Rencana Kerja, Laporan Tahunan, dan Penggunaan Laba",
+      "section": "68",
+      "title": "Kewajiban Audit Laporan Keuangan",
+      "content": "Pasal 68. (1) Direksi wajib menyerahkan laporan keuangan Perseroan kepada akuntan publik untuk diaudit apabila: a. kegiatan usaha Perseroan adalah menghimpun dan/atau mengelola dana masyarakat; b. Perseroan menerbitkan surat pengakuan utang kepada masyarakat; c. Perseroan merupakan Perseroan Terbuka; d. Perseroan merupakan persero; e. Perseroan mempunyai aset dan/atau jumlah peredaran usaha dengan jumlah nilai paling sedikit Rp50.000.000.000,00 (lima puluh miliar rupiah); atau f. diwajibkan oleh peraturan perundang-undangan."
+    },
+    {
+      "provision_ref": "pasal74",
+      "chapter": "BAB V - Tanggung Jawab Sosial dan Lingkungan",
+      "section": "74",
+      "title": "Tanggung Jawab Sosial dan Lingkungan (CSR)",
+      "content": "Pasal 74. (1) Perseroan yang menjalankan kegiatan usahanya di bidang dan/atau berkaitan dengan sumber daya alam wajib melaksanakan Tanggung Jawab Sosial dan Lingkungan. (2) Tanggung Jawab Sosial dan Lingkungan sebagaimana dimaksud pada ayat (1) merupakan kewajiban Perseroan yang dianggarkan dan diperhitungkan sebagai biaya Perseroan yang pelaksanaannya dilakukan dengan memperhatikan kepatutan dan kewajaran. (3) Perseroan yang tidak melaksanakan kewajiban sebagaimana dimaksud pada ayat (1) dikenai sanksi sesuai dengan ketentuan peraturan perundang-undangan. (4) Ketentuan lebih lanjut mengenai Tanggung Jawab Sosial dan Lingkungan diatur dengan Peraturan Pemerintah."
+    },
+    {
+      "provision_ref": "pasal92",
+      "chapter": "BAB VII - Direksi",
+      "section": "92",
+      "title": "Tugas Direksi",
+      "content": "Pasal 92. (1) Direksi menjalankan pengurusan Perseroan untuk kepentingan Perseroan dan sesuai dengan maksud dan tujuan Perseroan. (2) Direksi berwenang menjalankan pengurusan sebagaimana dimaksud pada ayat (1) sesuai dengan kebijakan yang dipandang tepat, dalam batas yang ditentukan dalam Undang-Undang ini dan/atau anggaran dasar. (3) Direksi Perseroan terdiri atas 1 (satu) orang anggota Direksi atau lebih. (4) Perseroan yang kegiatan usahanya berkaitan dengan menghimpun dan/atau mengelola dana masyarakat, Perseroan yang menerbitkan surat pengakuan utang kepada masyarakat atau Perseroan Terbuka wajib mempunyai paling sedikit 2 (dua) orang anggota Direksi."
+    },
+    {
+      "provision_ref": "pasal97",
+      "chapter": "BAB VII - Direksi",
+      "section": "97",
+      "title": "Tanggung Jawab Direksi",
+      "content": "Pasal 97. (1) Direksi bertanggung jawab atas pengurusan Perseroan sebagaimana dimaksud dalam Pasal 92 ayat (1). (2) Pengurusan sebagaimana dimaksud pada ayat (1), wajib dilaksanakan setiap anggota Direksi dengan iktikad baik dan penuh tanggung jawab. (3) Setiap anggota Direksi bertanggung jawab penuh secara pribadi atas kerugian Perseroan apabila yang bersangkutan bersalah atau lalai menjalankan tugasnya sesuai dengan ketentuan sebagaimana dimaksud pada ayat (2). (4) Dalam hal Direksi terdiri atas 2 (dua) anggota Direksi atau lebih, tanggung jawab sebagaimana dimaksud pada ayat (3) berlaku secara tanggung renteng bagi setiap anggota Direksi. (5) Anggota Direksi tidak dapat dipertanggungjawabkan atas kerugian sebagaimana dimaksud pada ayat (3) apabila dapat membuktikan: a. kerugian tersebut bukan karena kesalahan atau kelalaiannya; b. telah melakukan pengurusan dengan iktikad baik dan kehati-hatian; c. tidak mempunyai benturan kepentingan; dan d. telah mengambil tindakan untuk mencegah timbul atau berlanjutnya kerugian tersebut."
+    },
+    {
+      "provision_ref": "pasal100",
+      "chapter": "BAB VII - Direksi",
+      "section": "100",
+      "title": "Kewajiban Pembukuan dan Dokumen",
+      "content": "Pasal 100. (1) Direksi wajib: a. membuat daftar pemegang saham, daftar khusus, risalah RUPS, dan risalah rapat Direksi; b. membuat laporan tahunan sebagaimana dimaksud dalam Pasal 66 dan dokumen keuangan Perseroan sebagaimana dimaksud dalam undang-undang tentang dokumen perusahaan; dan c. memelihara seluruh daftar, risalah, dan dokumen keuangan Perseroan sebagaimana dimaksud pada huruf a dan huruf b dan dokumen Perseroan lainnya. (2) Seluruh daftar, risalah, dokumen keuangan Perseroan, dan dokumen Perseroan lainnya sebagaimana dimaksud pada ayat (1) disimpan di tempat kedudukan Perseroan."
+    },
+    {
+      "provision_ref": "pasal101",
+      "chapter": "BAB VII - Direksi",
+      "section": "101",
+      "title": "Benturan Kepentingan",
+      "content": "Pasal 101. (1) Anggota Direksi wajib melaporkan kepada Perseroan mengenai saham yang dimiliki anggota Direksi yang bersangkutan dan/atau keluarganya dalam Perseroan dan Perseroan lain untuk selanjutnya dicatat dalam daftar khusus. (2) Anggota Direksi yang tidak melaksanakan kewajiban sebagaimana dimaksud pada ayat (1) dan menimbulkan kerugian bagi Perseroan, bertanggung jawab secara pribadi atas kerugian Perseroan tersebut."
+    },
+    {
+      "provision_ref": "pasal102",
+      "chapter": "BAB VII - Direksi",
+      "section": "102",
+      "title": "Perbuatan yang Memerlukan Persetujuan RUPS/Komisaris",
+      "content": "Pasal 102. (1) Direksi wajib meminta persetujuan RUPS untuk: a. mengalihkan kekayaan Perseroan; atau b. menjadikan jaminan utang kekayaan Perseroan; yang merupakan lebih dari 50% (lima puluh persen) jumlah kekayaan bersih Perseroan dalam 1 (satu) transaksi atau lebih, baik yang berkaitan satu sama lain maupun tidak. (2) Transaksi sebagaimana dimaksud pada ayat (1) huruf a adalah transaksi pengalihan kekayaan bersih Perseroan yang terjadi dalam jangka waktu 1 (satu) tahun buku."
+    },
+    {
+      "provision_ref": "pasal108",
+      "chapter": "BAB VIII - Dewan Komisaris",
+      "section": "108",
+      "title": "Tugas Dewan Komisaris",
+      "content": "Pasal 108. (1) Dewan Komisaris melakukan pengawasan atas kebijakan pengurusan, jalannya pengurusan pada umumnya, baik mengenai Perseroan maupun usaha Perseroan, dan memberi nasihat kepada Direksi. (2) Pengawasan dan pemberian nasihat sebagaimana dimaksud pada ayat (1) dilakukan untuk kepentingan Perseroan dan sesuai dengan maksud dan tujuan Perseroan."
+    },
+    {
+      "provision_ref": "pasal114",
+      "chapter": "BAB VIII - Dewan Komisaris",
+      "section": "114",
+      "title": "Tanggung Jawab Dewan Komisaris",
+      "content": "Pasal 114. (1) Dewan Komisaris bertanggung jawab atas pengawasan Perseroan sebagaimana dimaksud dalam Pasal 108 ayat (1). (2) Setiap anggota Dewan Komisaris wajib dengan iktikad baik, kehati-hatian, dan bertanggung jawab dalam menjalankan tugas pengawasan dan pemberian nasihat kepada Direksi. (3) Setiap anggota Dewan Komisaris ikut bertanggung jawab secara pribadi atas kerugian Perseroan apabila yang bersangkutan bersalah atau lalai menjalankan tugasnya. (4) Dalam hal Dewan Komisaris terdiri atas 2 (dua) anggota Dewan Komisaris atau lebih, tanggung jawab sebagaimana dimaksud pada ayat (3) berlaku secara tanggung renteng bagi setiap anggota Dewan Komisaris."
+    },
+    {
+      "provision_ref": "pasal117",
+      "chapter": "BAB VIII - Dewan Komisaris",
+      "section": "117",
+      "title": "Komisaris Independen dan Komite Audit",
+      "content": "Pasal 117. (1) Dalam anggaran dasar dapat ditetapkan pemberian wewenang kepada Dewan Komisaris untuk memberikan persetujuan atau bantuan kepada Direksi dalam melakukan perbuatan hukum tertentu. (2) Berdasarkan anggaran dasar atau keputusan RUPS, Dewan Komisaris dapat melakukan tindakan pengurusan Perseroan dalam keadaan tertentu untuk jangka waktu tertentu."
+    },
+    {
+      "provision_ref": "pasal120",
+      "chapter": "BAB VIII - Dewan Komisaris",
+      "section": "120",
+      "title": "Komite",
+      "content": "Pasal 120. (1) Anggaran dasar Perseroan dapat mengatur adanya 1 (satu) orang atau lebih komisaris independen dan 1 (satu) orang komisaris utusan. (2) Komisaris independen sebagaimana dimaksud pada ayat (1) diangkat berdasarkan keputusan RUPS dari pihak yang tidak terafiliasi dengan pemegang saham utama, anggota Direksi dan/atau anggota Dewan Komisaris lainnya."
+    },
+    {
+      "provision_ref": "pasal127",
+      "chapter": "BAB IX - Penggabungan, Peleburan, Pengambilalihan, dan Pemisahan",
+      "section": "127",
+      "title": "Perlindungan dalam Penggabungan/Akuisisi",
+      "content": "Pasal 127. (1) Keputusan RUPS mengenai Penggabungan, Peleburan, Pengambilalihan, atau Pemisahan sah apabila diambil sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 87 ayat (1) dan Pasal 89. (2) Direksi Perseroan yang akan melakukan Penggabungan, Peleburan, Pengambilalihan, atau Pemisahan wajib mengumumkan ringkasan rancangan paling sedikit dalam 1 (satu) Surat Kabar dan mengumumkan secara tertulis kepada karyawan dari Perseroan yang akan melakukan Penggabungan, Peleburan, Pengambilalihan, atau Pemisahan dalam jangka waktu paling lambat 30 (tiga puluh) hari sebelum pemanggilan RUPS. (3) Kreditor dapat mengajukan keberatan kepada Perseroan dalam jangka waktu paling lambat 14 (empat belas) hari setelah pengumuman."
+    },
+    {
+      "provision_ref": "pasal138",
+      "chapter": "BAB X - Pemeriksaan terhadap Perseroan",
+      "section": "138",
+      "title": "Pemeriksaan Perseroan",
+      "content": "Pasal 138. (1) Pemeriksaan terhadap Perseroan dapat dilakukan dengan tujuan untuk mendapatkan data atau keterangan dalam hal terdapat dugaan bahwa: a. Perseroan melakukan perbuatan melawan hukum yang merugikan pemegang saham atau pihak ketiga; atau b. anggota Direksi atau Dewan Komisaris melakukan perbuatan melawan hukum yang merugikan Perseroan atau pemegang saham atau pihak ketiga. (2) Pemeriksaan sebagaimana dimaksud pada ayat (1) dilakukan dengan mengajukan permohonan secara tertulis beserta alasannya ke pengadilan negeri yang daerah hukumnya meliputi tempat kedudukan Perseroan."
+    },
+    {
+      "provision_ref": "pasal152",
+      "chapter": "BAB XI - Pembubaran, Likuidasi, dan Berakhirnya Status Badan Hukum",
+      "section": "152",
+      "title": "Pembubaran Perseroan",
+      "content": "Pasal 152. (1) Pembubaran Perseroan terjadi: a. berdasarkan keputusan RUPS; b. karena jangka waktu berdirinya yang ditetapkan dalam anggaran dasar telah berakhir; c. berdasarkan penetapan pengadilan; d. dengan dicabutnya kepailitan berdasarkan putusan pengadilan niaga; e. karena harta pailit Perseroan tidak cukup untuk membayar biaya kepailitan; f. karena harta pailit Perseroan yang telah dinyatakan pailit berada dalam keadaan insolvensi; atau g. karena dicabutnya izin usaha Perseroan sehingga mewajibkan Perseroan melakukan likuidasi."
+    },
+    {
+      "provision_ref": "pasal154",
+      "chapter": "BAB XI - Pembubaran, Likuidasi, dan Berakhirnya Status Badan Hukum",
+      "section": "154",
+      "title": "Likuidasi",
+      "content": "Pasal 154. (1) Dalam hal terjadi pembubaran Perseroan sebagaimana dimaksud dalam Pasal 142 ayat (1), wajib diikuti dengan likuidasi yang dilakukan oleh likuidator atau kurator. (2) Perseroan tidak dapat melakukan perbuatan hukum, kecuali diperlukan untuk membereskan semua urusan Perseroan dalam rangka likuidasi."
+    },
+    {
+      "provision_ref": "pasal157",
+      "chapter": "BAB XII - Ketentuan Peralihan",
+      "section": "157",
+      "title": "Ketentuan Peralihan",
+      "content": "Pasal 157. (1) Perseroan yang telah memperoleh status badan hukum berdasarkan peraturan perundang-undangan, pada saat Undang-Undang ini mulai berlaku, tetap dinyatakan sebagai Perseroan yang telah memenuhi syarat menurut Undang-Undang ini. (2) Anggaran dasar Perseroan yang belum disesuaikan dengan ketentuan Undang-Undang ini, wajib disesuaikan paling lambat 1 (satu) tahun terhitung sejak Undang-Undang ini mulai berlaku."
+    },
+    {
+      "provision_ref": "pasal160",
+      "chapter": "BAB XIII - Ketentuan Penutup",
+      "section": "160",
+      "title": "Pencabutan UU Sebelumnya",
+      "content": "Pasal 160. Pada saat Undang-Undang ini mulai berlaku, Undang-Undang Nomor 1 Tahun 1995 tentang Perseroan Terbatas dicabut dan dinyatakan tidak berlaku."
+    },
+    {
+      "provision_ref": "pasal161",
+      "chapter": "BAB XIII - Ketentuan Penutup",
+      "section": "161",
+      "title": "Pengundangan",
+      "content": "Pasal 161. Undang-Undang ini mulai berlaku pada tanggal diundangkan. Disahkan di Jakarta pada tanggal 16 Agustus 2007."
     }
   ],
-  "definitions": []
+  "definitions": [
+    {"term": "Perseroan Terbatas (PT)", "definition": "Badan hukum yang merupakan persekutuan modal, didirikan berdasarkan perjanjian, melakukan kegiatan usaha dengan modal dasar yang seluruhnya terbagi dalam saham."},
+    {"term": "Organ Perseroan", "definition": "RUPS, Direksi, dan Dewan Komisaris."},
+    {"term": "Direksi", "definition": "Organ Perseroan yang berwenang dan bertanggung jawab penuh atas pengurusan Perseroan untuk kepentingan Perseroan."},
+    {"term": "Dewan Komisaris", "definition": "Organ Perseroan yang bertugas melakukan pengawasan secara umum dan/atau khusus serta memberi nasihat kepada Direksi."},
+    {"term": "RUPS", "definition": "Rapat Umum Pemegang Saham, Organ Perseroan yang mempunyai wewenang yang tidak diberikan kepada Direksi atau Dewan Komisaris."},
+    {"term": "Tanggung Jawab Sosial dan Lingkungan", "definition": "Komitmen Perseroan untuk berperan serta dalam pembangunan ekonomi berkelanjutan guna meningkatkan kualitas kehidupan dan lingkungan (CSR)."}
+  ]
 }

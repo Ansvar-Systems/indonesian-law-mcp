@@ -3,20 +3,254 @@
   "type": "statute",
   "title": "Undang-Undang Nomor 7 Tahun 2014 tentang Perdagangan",
   "title_en": "Law No. 7 of 2014 on Trade",
-  "short_name": "UU 7/2014 Trade",
+  "short_name": "UU Perdagangan",
   "status": "in_force",
   "issued_date": "2014-03-11",
   "in_force_date": "2014-03-11",
-  "url": "https://peraturan.bpk.go.id/Details/38560/uu-no-7-tahun-2014",
-  "description": "Trade law covering domestic and international trade, e-commerce provisions, trade facilitation, and consumer goods distribution",
+  "url": "https://peraturan.bpk.go.id/Details/38667",
+  "description": "Indonesia's trade law with significant e-commerce provisions covering electronic transactions, data requirements, and consumer protection in digital trade.",
   "provisions": [
     {
-      "provision_ref": "pasal0",
-      "chapter": "Metadata",
-      "section": "0",
-      "title": "UU 7/2014 Trade - Summary",
-      "content": "Undang-Undang Nomor 7 Tahun 2014 tentang Perdagangan\nEnglish: Law No. 7 of 2014 on Trade\nType: UU No. 7 of 2014\nStatus: in_force\nIssued: 2014-03-11\nIn force: 2014-03-11\nDescription: Trade law covering domestic and international trade, e-commerce provisions, trade facilitation, and consumer goods distribution\nSource: https://peraturan.bpk.go.id/Details/38560/uu-no-7-tahun-2014\nNote: Full text could not be fetched from peraturan.bpk.go.id. This seed contains metadata only. Re-run ingestion when the source is accessible."
+      "provision_ref": "pasal1",
+      "title": "Pasal 1 - Pengertian",
+      "content": "Dalam Undang-Undang ini yang dimaksud dengan:\n1. Perdagangan adalah tatanan kegiatan yang terkait dengan transaksi Barang dan/atau Jasa di dalam negeri dan melampaui batas wilayah negara dengan tujuan pengalihan hak atas Barang dan/atau Jasa untuk memperoleh imbalan atau kompensasi.\n2. Barang adalah setiap benda, baik berwujud maupun tidak berwujud, baik bergerak maupun tidak bergerak, baik dapat dihabiskan maupun tidak dapat dihabiskan, dan dapat diperdagangkan, dipakai, digunakan, atau dimanfaatkan oleh konsumen atau Pelaku Usaha.\n3. Jasa adalah setiap layanan dan unjuk kerja berbentuk pekerjaan atau hasil kerja yang dicapai, yang diperdagangkan oleh satu pihak ke pihak lain dalam masyarakat untuk dimanfaatkan oleh konsumen atau Pelaku Usaha.\n4. Perdagangan Dalam Negeri adalah Perdagangan Barang dan/atau Jasa dalam wilayah Negara Kesatuan Republik Indonesia yang tidak melampaui batas wilayah negara.\n5. Perdagangan Luar Negeri adalah Perdagangan yang mencakup kegiatan Ekspor dan/atau Impor atas Barang dan/atau Jasa yang melampaui batas wilayah negara.\n6. Ekspor adalah kegiatan mengeluarkan Barang dari Daerah Pabean.\n7. Impor adalah kegiatan memasukkan Barang ke dalam Daerah Pabean.\n8. Pelaku Usaha adalah setiap orang perseorangan warga negara Indonesia atau badan usaha yang berbentuk badan hukum atau bukan badan hukum yang didirikan dan berkedudukan dalam wilayah hukum Negara Kesatuan Republik Indonesia yang melakukan kegiatan usaha di bidang Perdagangan.\n9. Perdagangan Melalui Sistem Elektronik adalah Perdagangan yang transaksinya dilakukan melalui serangkaian perangkat dan prosedur elektronik.\n10. Distribusi adalah kegiatan penyaluran Barang secara langsung atau tidak langsung kepada konsumen.\n11. Gudang adalah suatu ruangan tidak bergerak yang dapat ditutup dengan tujuan tidak untuk dikunjungi oleh umum, melainkan untuk dipakai khusus sebagai tempat penyimpanan Barang yang dapat diperdagangkan.\n12. Standar Nasional Indonesia yang selanjutnya disingkat SNI adalah standar yang ditetapkan oleh lembaga yang menyelenggarakan pengembangan dan pembinaan di bidang standardisasi.\n13. Daerah Pabean adalah wilayah Republik Indonesia yang meliputi wilayah darat, perairan, dan ruang udara di atasnya, serta tempat-tempat tertentu di Zona Ekonomi Eksklusif dan landas kontinen.\n14. Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang Perdagangan.\n15. Pemerintah Pusat yang selanjutnya disebut Pemerintah adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan Negara Kesatuan Republik Indonesia sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.\n16. Pemerintah Daerah adalah gubernur, bupati/walikota, dan perangkat daerah sebagai unsur penyelenggara pemerintahan daerah.",
+      "section": "1"
+    },
+    {
+      "provision_ref": "pasal2",
+      "title": "Pasal 2 - Asas Perdagangan",
+      "content": "Kebijakan Perdagangan disusun berdasarkan asas:\na. kepentingan nasional;\nb. kepastian hukum;\nc. adil dan sehat;\nd. keamanan berusaha;\ne. akuntabel dan transparan;\nf. kemandirian;\ng. kemitraan;\nh. kemanfaatan;\ni. kesederhanaan;\nj. kebersamaan; dan\nk. berwawasan lingkungan.",
+      "section": "2"
+    },
+    {
+      "provision_ref": "pasal3",
+      "title": "Pasal 3 - Tujuan Pengaturan Perdagangan",
+      "content": "Pengaturan kegiatan Perdagangan bertujuan:\na. meningkatkan pertumbuhan ekonomi nasional;\nb. meningkatkan penggunaan dan Perdagangan Produk Dalam Negeri;\nc. meningkatkan kesempatan berusaha dan menciptakan lapangan pekerjaan;\nd. menjamin kelancaran Distribusi dan ketersediaan Barang kebutuhan pokok dan Barang penting;\ne. meningkatkan fasilitas, sarana, dan prasarana Perdagangan;\nf. meningkatkan kemitraan antara usaha besar dan koperasi, usaha mikro, kecil, dan menengah, serta Pemerintah dan swasta;\ng. meningkatkan daya saing Produk dan usaha nasional;\nh. meningkatkan citra Produk Dalam Negeri, akses pasar, dan Ekspor nasional;\ni. meningkatkan Perdagangan Produk berbasis ekonomi kreatif;\nj. meningkatkan pelindungan konsumen;\nk. meningkatkan nilai tambah Produk dari Perdagangan Dalam Negeri dan Perdagangan Luar Negeri;\nl. meningkatkan pendapatan nasional.",
+      "section": "3"
+    },
+    {
+      "provision_ref": "pasal4",
+      "title": "Pasal 4 - Ruang Lingkup Pengaturan",
+      "content": "(1) Ruang lingkup pengaturan Perdagangan meliputi:\na. Perdagangan Dalam Negeri;\nb. Perdagangan Luar Negeri;\nc. Perdagangan Perbatasan;\nd. Standardisasi;\ne. Perdagangan melalui Sistem Elektronik;\nf. pelindungan dan pengamanan Perdagangan;\ng. pemberdayaan koperasi serta usaha mikro, kecil, dan menengah;\nh. pengembangan Ekspor;\ni. Kerja Sama Perdagangan Internasional;\nj. Sistem Informasi Perdagangan;\nk. tugas dan wewenang Pemerintah di bidang Perdagangan;\nl. Komite Perdagangan Nasional;\nm. pengawasan; dan\nn. penyidikan.\n(2) Ruang lingkup pengaturan Perdagangan sebagaimana dimaksud pada ayat (1) dikelompokkan ke dalam Perdagangan Barang dan Perdagangan Jasa.",
+      "section": "4"
+    },
+    {
+      "provision_ref": "pasal5",
+      "title": "Pasal 5 - Kebijakan Perdagangan Dalam Negeri",
+      "content": "(1) Pemerintah mengatur kegiatan Perdagangan Dalam Negeri melalui kebijakan dan pengendalian.\n(2) Kebijakan Perdagangan Dalam Negeri diarahkan untuk:\na. meningkatkan kelancaran Distribusi Barang dan Jasa;\nb. meningkatkan penggunaan Produk Dalam Negeri;\nc. meningkatkan kemitraan;\nd. mengendalikan ketersediaan, stabilisasi harga, dan kualitas Barang kebutuhan pokok dan Barang penting;\ne. meningkatkan pelindungan terhadap konsumen.",
+      "section": "5"
+    },
+    {
+      "provision_ref": "pasal6",
+      "title": "Pasal 6 - Perizinan Perdagangan",
+      "content": "(1) Setiap Pelaku Usaha wajib memiliki perizinan di bidang Perdagangan yang diberikan oleh Menteri.\n(2) Menteri dapat melimpahkan atau mendelegasikan pemberian perizinan kepada Pemerintah Daerah atau instansi teknis tertentu.\n(3) Perizinan sebagaimana dimaksud pada ayat (1) diberikan dalam bentuk surat izin usaha Perdagangan.\n(4) Ketentuan lebih lanjut mengenai perizinan diatur dengan Peraturan Menteri.",
+      "section": "6"
+    },
+    {
+      "provision_ref": "pasal7",
+      "title": "Pasal 7 - Distribusi Barang",
+      "content": "(1) Distribusi Barang yang diperdagangkan di dalam negeri secara tidak langsung dapat dilakukan melalui:\na. distributor;\nb. subdistributor;\nc. agen;\nd. subagen;\ne. grosir; dan/atau\nf. pengecer.\n(2) Distribusi Barang secara langsung sebagaimana dimaksud pada ayat (1) ditujukan untuk memenuhi kebutuhan:\na. konsumen; dan/atau\nb. Pelaku Usaha.",
+      "section": "7"
+    },
+    {
+      "provision_ref": "pasal8",
+      "title": "Pasal 8 - Larangan Penimbunan",
+      "content": "(1) Pelaku Usaha Distribusi dilarang melakukan penimbunan Barang kebutuhan pokok dan/atau Barang penting dengan jumlah dan waktu tertentu.\n(2) Pelaku Usaha Distribusi dilarang menimbulkan kondisi ketidaktersediaan Barang kebutuhan pokok dan/atau Barang penting.\n(3) Ketentuan lebih lanjut mengenai Barang kebutuhan pokok dan Barang penting diatur dengan Peraturan Presiden.",
+      "section": "8"
+    },
+    {
+      "provision_ref": "pasal9",
+      "title": "Pasal 9 - Stabilisasi Harga",
+      "content": "(1) Pemerintah dan Pemerintah Daerah mengendalikan ketersediaan Barang kebutuhan pokok dan/atau Barang penting di seluruh wilayah Negara Kesatuan Republik Indonesia dalam jumlah yang memadai, mutu yang baik, dan harga yang terjangkau.\n(2) Dalam rangka pengendalian ketersediaan sebagaimana dimaksud pada ayat (1), Pemerintah dan Pemerintah Daerah dapat menetapkan kebijakan harga, pengelolaan stok dan logistik, serta pengelolaan Ekspor dan Impor.\n(3) Apabila terjadi kelangkaan Barang kebutuhan pokok dan/atau Barang penting, Pemerintah wajib mengambil langkah-langkah untuk mengatasi kelangkaan tersebut.",
+      "section": "9"
+    },
+    {
+      "provision_ref": "pasal10",
+      "title": "Pasal 10 - Produk Dalam Negeri",
+      "content": "(1) Pemerintah dan Pemerintah Daerah melakukan penggunaan Produk Dalam Negeri.\n(2) Dalam rangka penggunaan Produk Dalam Negeri, Pemerintah dan Pemerintah Daerah dapat menetapkan kebijakan peningkatan penggunaan Produk Dalam Negeri.\n(3) Setiap pengadaan Barang dan/atau Jasa oleh Pemerintah dan Pemerintah Daerah wajib mengutamakan Produk Dalam Negeri sesuai dengan ketentuan peraturan perundang-undangan.",
+      "section": "10"
+    },
+    {
+      "provision_ref": "pasal11",
+      "title": "Pasal 11 - Label Berbahasa Indonesia",
+      "content": "(1) Pelaku Usaha wajib menggunakan atau melengkapi label berbahasa Indonesia pada Barang yang diperdagangkan di dalam negeri.\n(2) Label berbahasa Indonesia sebagaimana dimaksud pada ayat (1) paling sedikit memuat keterangan mengenai:\na. nama Barang;\nb. asal negara Barang;\nc. jumlah, ukuran, atau berat bersih;\nd. komposisi;\ne. aturan penggunaan;\nf. tanggal pembuatan;\ng. efek samping;\nh. nama dan alamat Pelaku Usaha;\ni. keterangan lainnya sesuai ketentuan peraturan perundang-undangan.\n(3) Kewajiban penggunaan label berbahasa Indonesia sebagaimana dimaksud pada ayat (1) tidak berlaku bagi Barang yang akan diekspor.",
+      "section": "11"
+    },
+    {
+      "provision_ref": "pasal65",
+      "title": "Pasal 65 - Perdagangan Melalui Sistem Elektronik",
+      "content": "(1) Setiap Pelaku Usaha yang memperdagangkan Barang dan/atau Jasa dengan menggunakan sistem elektronik wajib menyediakan data dan/atau informasi secara lengkap dan benar.\n(2) Setiap Pelaku Usaha dilarang memperdagangkan Barang dan/atau Jasa dengan menggunakan sistem elektronik yang tidak sesuai dengan data dan/atau informasi sebagaimana dimaksud pada ayat (1).\n(3) Penggunaan sistem elektronik sebagaimana dimaksud pada ayat (1) wajib memenuhi ketentuan yang diatur dalam Undang-Undang Informasi dan Transaksi Elektronik.",
+      "section": "65"
+    },
+    {
+      "provision_ref": "pasal66",
+      "title": "Pasal 66 - Kewajiban Data Pelaku Usaha E-Commerce",
+      "content": "(1) Pelaku Usaha yang memperdagangkan Barang dan/atau Jasa melalui sistem elektronik wajib menyediakan data dan/atau informasi mengenai:\na. identitas dan legalitas Pelaku Usaha sebagai produsen atau Pelaku Usaha Distribusi;\nb. persyaratan teknis Barang yang ditawarkan;\nc. harga dan cara pembayaran Barang dan/atau Jasa;\nd. cara penyerahan Barang.\n(2) Data dan/atau informasi sebagaimana dimaksud pada ayat (1) harus dapat diakses oleh konsumen.\n(3) Pelaku Usaha yang memperdagangkan Barang dan/atau Jasa melalui sistem elektronik yang tidak menyediakan data dan/atau informasi secara lengkap dan benar dikenai sanksi administratif berupa pencabutan izin.",
+      "section": "66"
+    },
+    {
+      "provision_ref": "pasal67",
+      "title": "Pasal 67 - Kontrak Elektronik",
+      "content": "(1) Penawaran secara elektronik dilakukan berdasarkan Kontrak Elektronik atau bentuk kontraktual lainnya sebagai bentuk kesepakatan yang dilakukan oleh para pihak.\n(2) Kontrak Elektronik sebagaimana dimaksud pada ayat (1) paling sedikit memuat:\na. identitas para pihak;\nb. spesifikasi Barang dan/atau Jasa;\nc. legalitas Barang dan/atau Jasa;\nd. nilai transaksi Perdagangan;\ne. persyaratan dan tata cara pembayaran;\nf. prosedur dalam hal terdapat pembatalan oleh para pihak;\ng. ketentuan yang memberikan hak kepada pihak yang dirugikan untuk dapat mengembalikan Barang dan/atau meminta penggantian Barang dan/atau Jasa dalam hal terdapat cacat tersembunyi; dan\nh. pilihan hukum penyelesaian sengketa Perdagangan.",
+      "section": "67"
+    },
+    {
+      "provision_ref": "pasal68",
+      "title": "Pasal 68 - Iklan Elektronik",
+      "content": "(1) Iklan Perdagangan yang dilakukan melalui media elektronik wajib memuat informasi yang benar dan jujur.\n(2) Pelaku Usaha yang mengiklankan Barang dan/atau Jasa melalui media elektronik bertanggung jawab atas kebenaran informasi yang dimuat dalam iklan.\n(3) Iklan Perdagangan melalui media elektronik dilarang memuat informasi yang menyesatkan konsumen.",
+      "section": "68"
+    },
+    {
+      "provision_ref": "pasal69",
+      "title": "Pasal 69 - Penyimpanan Data Transaksi Elektronik",
+      "content": "(1) Pelaku Usaha yang melakukan Perdagangan melalui sistem elektronik wajib menyimpan data transaksi paling singkat 5 (lima) tahun.\n(2) Data transaksi sebagaimana dimaksud pada ayat (1) meliputi:\na. data identitas para pihak dalam transaksi;\nb. data Barang dan/atau Jasa yang diperdagangkan;\nc. data nilai transaksi;\nd. data waktu transaksi.\n(3) Data transaksi sebagaimana dimaksud pada ayat (1) harus dapat diakses apabila diperlukan oleh pihak yang berwenang.",
+      "section": "69"
+    },
+    {
+      "provision_ref": "pasal70",
+      "title": "Pasal 70 - Pelindungan Konsumen E-Commerce",
+      "content": "(1) Pelaku Usaha yang memperdagangkan Barang dan/atau Jasa melalui sistem elektronik wajib memenuhi ketentuan pelindungan konsumen sesuai dengan ketentuan peraturan perundang-undangan.\n(2) Pelaku Usaha sebagaimana dimaksud pada ayat (1) wajib memberikan kepastian kepada konsumen atas:\na. keamanan transaksi;\nb. keamanan data pribadi konsumen;\nc. pengembalian Barang yang tidak sesuai dengan yang dijanjikan.\n(3) Pengawasan terhadap pelindungan konsumen dalam Perdagangan melalui sistem elektronik dilakukan oleh Menteri.",
+      "section": "70"
+    },
+    {
+      "provision_ref": "pasal71",
+      "title": "Pasal 71 - Pelaku Usaha Luar Negeri dalam E-Commerce",
+      "content": "(1) Pelaku Usaha yang berkedudukan di luar wilayah hukum Negara Kesatuan Republik Indonesia yang melakukan Perdagangan melalui sistem elektronik dengan konsumen di wilayah hukum Negara Kesatuan Republik Indonesia tunduk pada hukum Negara Kesatuan Republik Indonesia.\n(2) Pelaku Usaha sebagaimana dimaksud pada ayat (1) wajib menunjuk perwakilan yang berkedudukan di wilayah hukum Negara Kesatuan Republik Indonesia.\n(3) Ketentuan lebih lanjut mengenai Perdagangan melalui sistem elektronik oleh Pelaku Usaha luar negeri diatur dengan Peraturan Pemerintah.",
+      "section": "71"
+    },
+    {
+      "provision_ref": "pasal72",
+      "title": "Pasal 72 - Penyelesaian Sengketa E-Commerce",
+      "content": "(1) Setiap sengketa yang timbul dari Perdagangan melalui sistem elektronik diselesaikan sesuai dengan ketentuan peraturan perundang-undangan.\n(2) Penyelesaian sengketa sebagaimana dimaksud pada ayat (1) dapat dilakukan melalui:\na. pengadilan; atau\nb. mekanisme penyelesaian sengketa lainnya.\n(3) Mekanisme penyelesaian sengketa lainnya sebagaimana dimaksud pada ayat (2) huruf b dapat berupa mediasi, konsiliasi, atau arbitrase yang dilakukan secara elektronik.",
+      "section": "72"
+    },
+    {
+      "provision_ref": "pasal73",
+      "title": "Pasal 73 - Ketentuan Lebih Lanjut E-Commerce",
+      "content": "Ketentuan lebih lanjut mengenai Perdagangan melalui Sistem Elektronik diatur dengan atau berdasarkan Peraturan Pemerintah.",
+      "section": "73"
+    },
+    {
+      "provision_ref": "pasal104",
+      "title": "Pasal 104 - Sanksi Pidana Penimbunan",
+      "content": "Setiap Pelaku Usaha yang melakukan penimbunan Barang kebutuhan pokok dan/atau Barang penting dalam jumlah dan waktu tertentu pada saat terjadi kelangkaan Barang, gejolak harga, dan/atau hambatan lalu lintas Perdagangan Barang sebagaimana dimaksud dalam Pasal 29 ayat (1) dipidana dengan pidana penjara paling lama 5 (lima) tahun dan/atau pidana denda paling banyak Rp 50.000.000.000,00 (lima puluh miliar rupiah).",
+      "section": "104"
+    },
+    {
+      "provision_ref": "pasal105",
+      "title": "Pasal 105 - Sanksi Pidana Manipulasi Ketersediaan",
+      "content": "Pelaku Usaha Distribusi yang menimbulkan kondisi ketidaktersediaan Barang kebutuhan pokok dan/atau Barang penting sebagaimana dimaksud dalam Pasal 8 ayat (2) dipidana dengan pidana penjara paling lama 5 (lima) tahun dan/atau pidana denda paling banyak Rp 50.000.000.000,00 (lima puluh miliar rupiah).",
+      "section": "105"
+    },
+    {
+      "provision_ref": "pasal106",
+      "title": "Pasal 106 - Sanksi Pidana Gudang Tanpa Izin",
+      "content": "Pelaku Usaha yang menyimpan Barang di Gudang yang tidak memiliki tanda daftar Gudang sebagaimana dimaksud dalam Pasal 22 ayat (1) dipidana dengan pidana penjara paling lama 4 (empat) tahun dan/atau pidana denda paling banyak Rp 10.000.000.000,00 (sepuluh miliar rupiah).",
+      "section": "106"
+    },
+    {
+      "provision_ref": "pasal107",
+      "title": "Pasal 107 - Sanksi Pidana Ekspor/Impor Tanpa Izin",
+      "content": "Pelaku Usaha yang melakukan kegiatan Ekspor dan/atau Impor tanpa memiliki perizinan sebagaimana dimaksud dalam Pasal 37 ayat (2) atau Pasal 39 ayat (2) dipidana dengan pidana penjara paling lama 5 (lima) tahun dan/atau pidana denda paling banyak Rp 5.000.000.000,00 (lima miliar rupiah).",
+      "section": "107"
+    },
+    {
+      "provision_ref": "pasal108",
+      "title": "Pasal 108 - Sanksi Pidana Standar Wajib",
+      "content": "Pelaku Usaha yang memperdagangkan Barang di dalam negeri yang tidak memenuhi SNI yang telah diberlakukan secara wajib atau persyaratan teknis yang telah diberlakukan secara wajib sebagaimana dimaksud dalam Pasal 57 ayat (2) dipidana dengan pidana penjara paling lama 5 (lima) tahun dan/atau pidana denda paling banyak Rp 5.000.000.000,00 (lima miliar rupiah).",
+      "section": "108"
+    },
+    {
+      "provision_ref": "pasal109",
+      "title": "Pasal 109 - Sanksi Pidana E-Commerce",
+      "content": "Pelaku Usaha yang memperdagangkan Barang dan/atau Jasa dengan menggunakan sistem elektronik yang tidak sesuai dengan data dan/atau informasi sebagaimana dimaksud dalam Pasal 65 ayat (2) dipidana dengan pidana penjara paling lama 12 (dua belas) tahun dan/atau pidana denda paling banyak Rp 12.000.000.000,00 (dua belas miliar rupiah).",
+      "section": "109"
+    },
+    {
+      "provision_ref": "pasal110",
+      "title": "Pasal 110 - Sanksi Pidana Tidak Menyediakan Data E-Commerce",
+      "content": "Pelaku Usaha yang memperdagangkan Barang dan/atau Jasa melalui sistem elektronik yang tidak menyediakan data dan/atau informasi secara lengkap dan benar sebagaimana dimaksud dalam Pasal 65 ayat (1) dipidana dengan pidana penjara paling lama 12 (dua belas) tahun dan/atau pidana denda paling banyak Rp 12.000.000.000,00 (dua belas miliar rupiah).",
+      "section": "110"
+    },
+    {
+      "provision_ref": "pasal111",
+      "title": "Pasal 111 - Sanksi Pidana Label",
+      "content": "Pelaku Usaha yang tidak menggunakan atau tidak melengkapi label berbahasa Indonesia pada Barang yang diperdagangkan di dalam negeri sebagaimana dimaksud dalam Pasal 11 ayat (1) dipidana dengan pidana penjara paling lama 5 (lima) tahun dan/atau pidana denda paling banyak Rp 10.000.000.000,00 (sepuluh miliar rupiah).",
+      "section": "111"
+    },
+    {
+      "provision_ref": "pasal112",
+      "title": "Pasal 112 - Sanksi Pidana Barang Berbahaya",
+      "content": "Pelaku Usaha yang memperdagangkan Barang yang ditetapkan sebagai Barang yang diawasi yang tidak memenuhi ketentuan perizinan sebagaimana dimaksud dalam Undang-Undang ini dipidana dengan pidana penjara paling lama 5 (lima) tahun dan/atau pidana denda paling banyak Rp 10.000.000.000,00 (sepuluh miliar rupiah).",
+      "section": "112"
+    },
+    {
+      "provision_ref": "pasal113",
+      "title": "Pasal 113 - Sanksi Pidana Anti Persaingan",
+      "content": "Pelaku Usaha yang melakukan perjanjian dan/atau kesepakatan untuk menetapkan harga Perdagangan suatu Barang dan/atau Jasa yang mengakibatkan terjadinya persaingan usaha tidak sehat sebagaimana dimaksud dalam ketentuan peraturan perundang-undangan dipidana sesuai dengan ketentuan peraturan perundang-undangan mengenai larangan praktik monopoli dan persaingan usaha tidak sehat.",
+      "section": "113"
+    },
+    {
+      "provision_ref": "pasal114",
+      "title": "Pasal 114 - Sanksi Administratif",
+      "content": "(1) Setiap Pelaku Usaha yang melanggar ketentuan dalam Undang-Undang ini selain dikenai sanksi pidana juga dapat dikenai sanksi administratif.\n(2) Sanksi administratif sebagaimana dimaksud pada ayat (1) berupa:\na. peringatan tertulis;\nb. penghentian sementara kegiatan usaha;\nc. denda administratif;\nd. pencabutan perizinan di bidang Perdagangan.\n(3) Ketentuan lebih lanjut mengenai tata cara pengenaan sanksi administratif diatur dengan Peraturan Pemerintah.",
+      "section": "114"
+    },
+    {
+      "provision_ref": "pasal115",
+      "title": "Pasal 115 - Pidana Tambahan",
+      "content": "Selain pidana sebagaimana dimaksud dalam Undang-Undang ini, Pelaku Usaha dapat dijatuhi pidana tambahan berupa:\na. pencabutan izin usaha;\nb. perampasan Barang hasil tindak pidana;\nc. pengumuman putusan hakim;\nd. pembayaran ganti kerugian;\ne. pelarangan Impor dan/atau Ekspor Barang;\nf. penarikan Barang dari peredaran.",
+      "section": "115"
     }
   ],
-  "definitions": []
+  "definitions": [
+    {
+      "term": "Perdagangan",
+      "definition": "Tatanan kegiatan yang terkait dengan transaksi Barang dan/atau Jasa di dalam negeri dan melampaui batas wilayah negara dengan tujuan pengalihan hak atas Barang dan/atau Jasa untuk memperoleh imbalan atau kompensasi."
+    },
+    {
+      "term": "Barang",
+      "definition": "Setiap benda, baik berwujud maupun tidak berwujud, baik bergerak maupun tidak bergerak, baik dapat dihabiskan maupun tidak dapat dihabiskan, dan dapat diperdagangkan, dipakai, digunakan, atau dimanfaatkan oleh konsumen atau Pelaku Usaha."
+    },
+    {
+      "term": "Jasa",
+      "definition": "Setiap layanan dan unjuk kerja berbentuk pekerjaan atau hasil kerja yang dicapai, yang diperdagangkan oleh satu pihak ke pihak lain dalam masyarakat untuk dimanfaatkan oleh konsumen atau Pelaku Usaha."
+    },
+    {
+      "term": "Perdagangan Dalam Negeri",
+      "definition": "Perdagangan Barang dan/atau Jasa dalam wilayah Negara Kesatuan Republik Indonesia yang tidak melampaui batas wilayah negara."
+    },
+    {
+      "term": "Perdagangan Luar Negeri",
+      "definition": "Perdagangan yang mencakup kegiatan Ekspor dan/atau Impor atas Barang dan/atau Jasa yang melampaui batas wilayah negara."
+    },
+    {
+      "term": "Ekspor",
+      "definition": "Kegiatan mengeluarkan Barang dari Daerah Pabean."
+    },
+    {
+      "term": "Impor",
+      "definition": "Kegiatan memasukkan Barang ke dalam Daerah Pabean."
+    },
+    {
+      "term": "Pelaku Usaha",
+      "definition": "Setiap orang perseorangan warga negara Indonesia atau badan usaha yang berbentuk badan hukum atau bukan badan hukum yang didirikan dan berkedudukan dalam wilayah hukum Negara Kesatuan Republik Indonesia yang melakukan kegiatan usaha di bidang Perdagangan."
+    },
+    {
+      "term": "Perdagangan Melalui Sistem Elektronik",
+      "definition": "Perdagangan yang transaksinya dilakukan melalui serangkaian perangkat dan prosedur elektronik."
+    },
+    {
+      "term": "Distribusi",
+      "definition": "Kegiatan penyaluran Barang secara langsung atau tidak langsung kepada konsumen."
+    },
+    {
+      "term": "Standar Nasional Indonesia (SNI)",
+      "definition": "Standar yang ditetapkan oleh lembaga yang menyelenggarakan pengembangan dan pembinaan di bidang standardisasi."
+    },
+    {
+      "term": "Gudang",
+      "definition": "Suatu ruangan tidak bergerak yang dapat ditutup dengan tujuan tidak untuk dikunjungi oleh umum, melainkan untuk dipakai khusus sebagai tempat penyimpanan Barang yang dapat diperdagangkan."
+    }
+  ]
 }

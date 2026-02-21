@@ -2,21 +2,266 @@
   "id": "pp-71-2019-pste",
   "type": "statute",
   "title": "Peraturan Pemerintah Nomor 71 Tahun 2019 tentang Penyelenggaraan Sistem dan Transaksi Elektronik",
-  "title_en": "Government Regulation No. 71 of 2019 on the Operation of Electronic Systems and Transactions",
+  "title_en": "Government Regulation No. 71 of 2019 on Electronic Systems and Transactions (PSTE)",
   "short_name": "PP 71/2019 PSTE",
   "status": "in_force",
   "issued_date": "2019-10-10",
   "in_force_date": "2019-10-10",
   "url": "https://peraturan.bpk.go.id/Details/131060/pp-no-71-tahun-2019",
-  "description": "Implementing regulation for electronic systems and transactions; covers data localization, electronic system registration, content moderation",
+  "description": "Implementing regulation for the ITE Law covering electronic system operations, data protection, electronic agents, domain names, cross-border data flows, and government oversight. Replaces PP 82/2012.",
   "provisions": [
     {
-      "provision_ref": "pasal0",
-      "chapter": "Metadata",
-      "section": "0",
-      "title": "PP 71/2019 PSTE - Summary",
-      "content": "Peraturan Pemerintah Nomor 71 Tahun 2019 tentang Penyelenggaraan Sistem dan Transaksi Elektronik\nEnglish: Government Regulation No. 71 of 2019 on the Operation of Electronic Systems and Transactions\nType: PP No. 71 of 2019\nStatus: in_force\nIssued: 2019-10-10\nIn force: 2019-10-10\nDescription: Implementing regulation for electronic systems and transactions; covers data localization, electronic system registration, content moderation\nSource: https://peraturan.bpk.go.id/Details/131060/pp-no-71-tahun-2019\nNote: Full text could not be fetched from peraturan.bpk.go.id. This seed contains metadata only. Re-run ingestion when the source is accessible."
+      "provision_ref": "pasal1",
+      "chapter": "BAB I - Ketentuan Umum",
+      "section": "1",
+      "title": "Definisi",
+      "content": "Pasal 1. Dalam Peraturan Pemerintah ini yang dimaksud dengan: 1. Sistem Elektronik adalah serangkaian perangkat dan prosedur elektronik yang berfungsi mempersiapkan, mengumpulkan, mengolah, menganalisis, menyimpan, menampilkan, mengumumkan, mengirimkan, dan/atau menyebarkan Informasi Elektronik. 2. Penyelenggara Sistem Elektronik adalah setiap Orang, penyelenggara negara, Badan Usaha, dan masyarakat yang menyediakan, mengelola, dan/atau mengoperasikan Sistem Elektronik. 3. Penyelenggara Sistem Elektronik Lingkup Publik adalah penyelenggara negara atau institusi yang ditunjuk untuk layanan publik. 4. Penyelenggara Sistem Elektronik Lingkup Privat adalah orang, Badan Usaha, dan masyarakat yang menyelenggarakan Sistem Elektronik selain lingkup publik. 5. Data Pribadi adalah setiap data tentang seseorang baik yang teridentifikasi dan/atau dapat diidentifikasi secara tersendiri atau dikombinasi dengan informasi lainnya. 6. Data Elektronik Strategis adalah data yang pengelolaannya berdampak pada keamanan dan ketahanan negara. 7. Transaksi Elektronik adalah perbuatan hukum yang dilakukan dengan menggunakan Komputer, jaringan Komputer, dan/atau media elektronik lainnya. 8. Kontrak Elektronik adalah perjanjian para pihak yang dibuat melalui Sistem Elektronik."
+    },
+    {
+      "provision_ref": "pasal2",
+      "chapter": "BAB II - Penyelenggaraan Sistem Elektronik",
+      "section": "2",
+      "title": "Ruang Lingkup Penyelenggaraan",
+      "content": "Pasal 2. (1) Penyelenggaraan Sistem Elektronik dilaksanakan oleh Penyelenggara Sistem Elektronik. (2) Penyelenggara Sistem Elektronik terdiri atas: a. Penyelenggara Sistem Elektronik Lingkup Publik; dan b. Penyelenggara Sistem Elektronik Lingkup Privat. (3) Penyelenggaraan Sistem Elektronik meliputi: a. pendaftaran; b. tata kelola; c. pemrosesan dan pengelolaan data; d. pengelolaan dan perlindungan Data Pribadi; dan e. pengawasan."
+    },
+    {
+      "provision_ref": "pasal3",
+      "chapter": "BAB II - Penyelenggaraan Sistem Elektronik",
+      "section": "3",
+      "title": "Kewajiban Pendaftaran",
+      "content": "Pasal 3. (1) Setiap Penyelenggara Sistem Elektronik wajib mendaftarkan Sistem Elektroniknya. (2) Pendaftaran ditujukan kepada Menteri. (3) Pendaftaran tidak berlaku bagi Penyelenggara Sistem Elektronik untuk kebutuhan sendiri."
+    },
+    {
+      "provision_ref": "pasal4",
+      "chapter": "BAB II - Penyelenggaraan Sistem Elektronik",
+      "section": "4",
+      "title": "Pendaftaran PSE Asing",
+      "content": "Pasal 4. (1) Penyelenggara Sistem Elektronik yang berkedudukan di luar wilayah hukum Indonesia wajib melakukan pendaftaran kepada Menteri apabila: a. menyediakan penawaran dan/atau perdagangan barang dan/atau jasa yang ditujukan kepada Pengguna di Indonesia; b. menyediakan layanan komunikasi yang ditujukan kepada Pengguna di Indonesia; c. menyediakan mesin pencari, layanan konten, dan/atau layanan komputasi awan yang dapat diakses oleh Pengguna di Indonesia; dan/atau d. menyediakan layanan lainnya yang ditetapkan oleh Menteri. (2) Kegagalan PSE asing untuk mendaftar dapat mengakibatkan pemutusan akses terhadap layanannya di Indonesia."
+    },
+    {
+      "provision_ref": "pasal5",
+      "chapter": "BAB II - Penyelenggaraan Sistem Elektronik",
+      "section": "5",
+      "title": "Penyelenggaraan yang Andal dan Aman",
+      "content": "Pasal 5. (1) Penyelenggara Sistem Elektronik wajib menyelenggarakan Sistem Elektronik secara andal dan aman serta bertanggung jawab terhadap beroperasinya Sistem Elektronik sebagaimana mestinya. (2) Penyelenggara Sistem Elektronik bertanggung jawab atas penyelenggaraan Sistem Elektroniknya."
+    },
+    {
+      "provision_ref": "pasal6",
+      "chapter": "BAB II - Penyelenggaraan Sistem Elektronik",
+      "section": "6",
+      "title": "Persyaratan Minimum",
+      "content": "Pasal 6. Sistem Elektronik wajib memenuhi persyaratan minimum: a. dapat menampilkan kembali Informasi Elektronik dan/atau Dokumen Elektronik secara utuh sesuai dengan masa retensi; b. dapat melindungi ketersediaan, keutuhan, keotentikan, kerahasiaan, dan keteraksesan Informasi Elektronik; c. dapat beroperasi sesuai dengan prosedur atau petunjuk; d. dilengkapi dengan prosedur atau petunjuk yang diumumkan; dan e. memiliki mekanisme yang berkelanjutan untuk menjaga kebaruan."
+    },
+    {
+      "provision_ref": "pasal7",
+      "chapter": "BAB II - Penyelenggaraan Sistem Elektronik",
+      "section": "7",
+      "title": "Komponen Sistem Elektronik",
+      "content": "Pasal 7. (1) Sistem Elektronik terdiri atas komponen: a. perangkat keras (hardware); b. perangkat lunak (software); c. tenaga ahli; d. tata kelola; dan e. pengamanan. (2) Setiap komponen harus memenuhi standar yang berlaku."
+    },
+    {
+      "provision_ref": "pasal8",
+      "chapter": "BAB II - Penyelenggaraan Sistem Elektronik",
+      "section": "8",
+      "title": "Prosedur Pengamanan",
+      "content": "Pasal 8. (1) Penyelenggara Sistem Elektronik wajib memiliki dan menjalankan prosedur dan sarana untuk pengamanan Sistem Elektronik dalam menghindari gangguan, kegagalan, dan kerugian. (2) Prosedur pengamanan harus dapat: a. mendeteksi kerentanan Sistem Elektronik; b. melindungi terhadap gangguan dan/atau serangan siber; c. melakukan pencatatan dan pemantauan keamanan; dan d. menjaga kerahasiaan, keutuhan, dan ketersediaan data."
+    },
+    {
+      "provision_ref": "pasal9",
+      "chapter": "BAB II - Penyelenggaraan Sistem Elektronik",
+      "section": "9",
+      "title": "Penempatan Pusat Data",
+      "content": "Pasal 9. (1) Penyelenggara Sistem Elektronik Lingkup Publik wajib menempatkan pusat data dan pusat pemulihan bencana di wilayah Indonesia. (2) Penyelenggara Sistem Elektronik Lingkup Privat dapat menempatkan pusat data dan pusat pemulihan bencana di wilayah Indonesia dan/atau di luar wilayah Indonesia. (3) Penempatan di luar wilayah Indonesia tetap harus memperhatikan aspek perlindungan Data Pribadi dan kepentingan nasional."
+    },
+    {
+      "provision_ref": "pasal10",
+      "chapter": "BAB II - Penyelenggaraan Sistem Elektronik",
+      "section": "10",
+      "title": "Rencana Keberlangsungan Usaha",
+      "content": "Pasal 10. Penyelenggara Sistem Elektronik wajib memiliki rencana keberlangsungan usaha yang mencakup: a. rencana pemulihan bencana; b. prosedur penanganan insiden; c. prosedur komunikasi krisis; dan d. prosedur pemulihan data."
+    },
+    {
+      "provision_ref": "pasal11",
+      "chapter": "BAB II - Penyelenggaraan Sistem Elektronik",
+      "section": "11",
+      "title": "Sertifikasi Keandalan",
+      "content": "Pasal 11. (1) Penyelenggara Sistem Elektronik dapat memperoleh sertifikasi keandalan dari lembaga sertifikasi keandalan. (2) Sertifikasi meliputi yang diterbitkan oleh lembaga Indonesia dan lembaga asing yang diakui Pemerintah."
+    },
+    {
+      "provision_ref": "pasal12",
+      "chapter": "BAB II - Penyelenggaraan Sistem Elektronik",
+      "section": "12",
+      "title": "Audit Sistem Elektronik",
+      "content": "Pasal 12. (1) Penyelenggara Sistem Elektronik Lingkup Publik wajib melakukan audit terhadap Sistem Elektronik secara berkala. (2) Audit dilakukan oleh auditor internal yang independen atau auditor eksternal yang independen."
+    },
+    {
+      "provision_ref": "pasal13",
+      "chapter": "BAB III - Tanda Tangan Elektronik",
+      "section": "13",
+      "title": "Jenis Tanda Tangan Elektronik",
+      "content": "Pasal 13. (1) Tanda Tangan Elektronik terdiri atas: a. Tanda Tangan Elektronik tersertifikasi; dan b. Tanda Tangan Elektronik tidak tersertifikasi. (2) Tanda Tangan Elektronik tersertifikasi harus menggunakan jasa Penyelenggara Sertifikasi Elektronik Indonesia dan dibuat dengan menggunakan perangkat pembuat tanda tangan elektronik tersertifikasi. (3) Tanda Tangan Elektronik tidak tersertifikasi tetap memiliki kekuatan hukum yang sah sepanjang memenuhi persyaratan."
+    },
+    {
+      "provision_ref": "pasal14",
+      "chapter": "BAB IV - Pengelolaan Data Pribadi",
+      "section": "14",
+      "title": "Prinsip Perlindungan Data Pribadi",
+      "content": "Pasal 14. (1) Penyelenggara Sistem Elektronik wajib melaksanakan prinsip perlindungan Data Pribadi meliputi: a. pengumpulan dilakukan secara terbatas dan spesifik, sah secara hukum, adil, dengan sepengetahuan dan persetujuan pemilik Data Pribadi; b. pemrosesan dilakukan sesuai dengan tujuannya; c. pemrosesan dilakukan dengan menjamin hak pemilik Data Pribadi; d. pemrosesan dilakukan secara akurat, lengkap, tidak menyesatkan, mutakhir, dan dapat dipertanggungjawabkan; e. pemrosesan dilakukan dengan melindungi keamanan Data Pribadi dari kehilangan, penyalahgunaan, akses dan pengungkapan tidak sah, serta pengubahan atau perusakan; f. pemrosesan dilakukan dengan memberitahukan tujuan pengumpulan, aktivitas pemrosesan, dan kegagalan perlindungan; dan g. Data Pribadi dimusnahkan dan/atau dihapus kecuali masih dalam masa retensi."
+    },
+    {
+      "provision_ref": "pasal15",
+      "chapter": "BAB IV - Pengelolaan Data Pribadi",
+      "section": "15",
+      "title": "Persetujuan Pemilik Data",
+      "content": "Pasal 15. (1) Pemrosesan Data Pribadi wajib dilakukan berdasarkan persetujuan yang sah secara eksplisit dari pemilik Data Pribadi. (2) Persetujuan wajib diperoleh sebelum pemrosesan. (3) Persetujuan dapat berupa pernyataan tertulis, baik secara manual maupun elektronik."
+    },
+    {
+      "provision_ref": "pasal16",
+      "chapter": "BAB IV - Pengelolaan Data Pribadi",
+      "section": "16",
+      "title": "Pengecualian Persetujuan",
+      "content": "Pasal 16. Pemrosesan Data Pribadi tanpa persetujuan pemilik dapat dilakukan dalam hal: a. pemenuhan kewajiban perjanjian; b. pemenuhan kewajiban hukum; c. kepentingan vital pemilik Data Pribadi; d. pelaksanaan tugas demi kepentingan umum; e. pelaksanaan kewenangan pejabat; dan/atau f. kepentingan yang sah lainnya."
+    },
+    {
+      "provision_ref": "pasal17",
+      "chapter": "BAB IV - Pengelolaan Data Pribadi",
+      "section": "17",
+      "title": "Kerahasiaan Data Pribadi",
+      "content": "Pasal 17. (1) Penyelenggara Sistem Elektronik wajib menjaga kerahasiaan Data Pribadi. (2) Pengungkapan Data Pribadi hanya dapat dilakukan berdasarkan persetujuan pemilik kecuali ditentukan lain oleh peraturan perundang-undangan."
+    },
+    {
+      "provision_ref": "pasal18",
+      "chapter": "BAB IV - Pengelolaan Data Pribadi",
+      "section": "18",
+      "title": "Hak Pemilik Data Pribadi",
+      "content": "Pasal 18. (1) Pemilik Data Pribadi berhak atas: a. kerahasiaan Data Pribadi; b. pengajuan keluhan dalam rangka penyelesaian sengketa; c. akses untuk memperoleh historis Data Pribadi; dan d. permintaan pemusnahan Data Pribadi. (2) Pengajuan keluhan dapat difasilitasi oleh Menteri."
+    },
+    {
+      "provision_ref": "pasal19",
+      "chapter": "BAB IV - Pengelolaan Data Pribadi",
+      "section": "19",
+      "title": "Pemberitahuan Kegagalan Perlindungan",
+      "content": "Pasal 19. (1) Dalam hal terjadi kegagalan perlindungan Data Pribadi, Penyelenggara Sistem Elektronik wajib memberitahukan secara tertulis kepada pemilik Data Pribadi. (2) Pemberitahuan harus disertai alasan atau penyebab kegagalan. (3) Pemberitahuan harus dikirimkan paling lambat 14 (empat belas) hari sejak diketahuinya kegagalan."
+    },
+    {
+      "provision_ref": "pasal20",
+      "chapter": "BAB IV - Pengelolaan Data Pribadi",
+      "section": "20",
+      "title": "Transfer Data Pribadi Lintas Batas",
+      "content": "Pasal 20. (1) Transfer Data Pribadi kepada pihak di luar wilayah Indonesia wajib: a. berkoordinasi dengan Menteri atau pejabat/lembaga terkait; b. memperhatikan aspek kepentingan nasional; dan c. dilakukan dalam rangka pelaksanaan perjanjian internasional atau kerja sama lintas batas. (2) Dalam hal belum terdapat perjanjian internasional, Menteri dapat menentukan standar perlindungan Data Pribadi yang harus dipenuhi oleh negara penerima."
+    },
+    {
+      "provision_ref": "pasal21",
+      "chapter": "BAB V - Transaksi Elektronik",
+      "section": "21",
+      "title": "Penyelenggaraan Transaksi Elektronik",
+      "content": "Pasal 21. (1) Penyelenggaraan Transaksi Elektronik dapat dilakukan dalam lingkup publik maupun privat. (2) Para pihak wajib beriktikad baik dalam melakukan interaksi dan pertukaran Informasi Elektronik selama transaksi berlangsung."
+    },
+    {
+      "provision_ref": "pasal22",
+      "chapter": "BAB V - Transaksi Elektronik",
+      "section": "22",
+      "title": "Kontrak Elektronik",
+      "content": "Pasal 22. (1) Kontrak Elektronik dianggap sah apabila: a. terdapat kesepakatan para pihak; b. dilakukan oleh subjek hukum yang cakap; c. terdapat hal tertentu; dan d. objek transaksi tidak bertentangan dengan peraturan perundang-undangan, kesusilaan, dan ketertiban umum. (2) Kontrak Elektronik paling sedikit memuat: a. data identitas para pihak; b. objek dan spesifikasi; c. persyaratan Transaksi Elektronik; d. harga dan biaya; e. prosedur pembatalan; f. ketentuan pengembalian; dan g. pilihan hukum penyelesaian."
+    },
+    {
+      "provision_ref": "pasal23",
+      "chapter": "BAB VI - Konten yang Dilarang",
+      "section": "23",
+      "title": "Pencegahan Konten Dilarang",
+      "content": "Pasal 23. (1) Pemerintah wajib melakukan pencegahan penyebarluasan Informasi Elektronik yang memiliki muatan dilarang. (2) Pencegahan dilakukan melalui: a. pemutusan akses oleh Pemerintah; atau b. perintah kepada Penyelenggara Sistem Elektronik untuk melakukan pemutusan akses."
+    },
+    {
+      "provision_ref": "pasal24",
+      "chapter": "BAB VI - Konten yang Dilarang",
+      "section": "24",
+      "title": "Tata Cara Pemutusan Akses",
+      "content": "Pasal 24. (1) Menteri dapat melakukan pemutusan akses terhadap Informasi Elektronik yang memiliki muatan melanggar hukum. (2) Rekomendasi pemutusan akses dapat berasal dari: a. kementerian atau lembaga berwenang; b. aparat penegak hukum; atau c. putusan pengadilan. (3) Penyelenggara Sistem Elektronik wajib melaksanakan pemutusan akses paling lama 1 x 24 jam setelah menerima perintah."
+    },
+    {
+      "provision_ref": "pasal25",
+      "chapter": "BAB VI - Konten yang Dilarang",
+      "section": "25",
+      "title": "Hak untuk Dilupakan",
+      "content": "Pasal 25. (1) Setiap Penyelenggara Sistem Elektronik wajib menghapus Informasi Elektronik yang tidak relevan yang berada di bawah kendalinya atas permintaan Orang berdasarkan penetapan pengadilan. (2) Penyelenggara Sistem Elektronik wajib menyediakan mekanisme penghapusan Informasi Elektronik yang sudah tidak relevan."
+    },
+    {
+      "provision_ref": "pasal26",
+      "chapter": "BAB VII - Nama Domain",
+      "section": "26",
+      "title": "Pengelolaan Nama Domain",
+      "content": "Pasal 26. (1) Pengelolaan Nama Domain tingkat tinggi Indonesia dilakukan oleh Pengelola Nama Domain. (2) Pengelola Nama Domain ditetapkan oleh Menteri. (3) Pengelolaan dilakukan berdasarkan prinsip transparan, adil, efisien, nondiskriminasi, dan keamanan."
+    },
+    {
+      "provision_ref": "pasal27",
+      "chapter": "BAB VIII - Data Elektronik Strategis",
+      "section": "27",
+      "title": "Penetapan Data Elektronik Strategis",
+      "content": "Pasal 27. (1) Pemerintah menetapkan instansi yang memiliki Data Elektronik Strategis yang wajib dilindungi. (2) Instansi tersebut wajib: a. membuat Dokumen Elektronik dan rekam cadangnya; b. menghubungkan ke pusat data tertentu; dan c. menjamin keamanan dan kerahasiaan Data Elektronik Strategis."
+    },
+    {
+      "provision_ref": "pasal28",
+      "chapter": "BAB VIII - Data Elektronik Strategis",
+      "section": "28",
+      "title": "Perlindungan Data Strategis",
+      "content": "Pasal 28. Data Elektronik Strategis wajib dilindungi dari: a. akses yang tidak sah; b. gangguan atau kerusakan; c. pencurian atau kehilangan; dan d. serangan siber atau perusakan oleh pihak tidak bertanggung jawab."
+    },
+    {
+      "provision_ref": "pasal29",
+      "chapter": "BAB IX - Pengawasan",
+      "section": "29",
+      "title": "Pengawasan oleh Menteri",
+      "content": "Pasal 29. (1) Menteri melakukan pengawasan terhadap penyelenggaraan Sistem Elektronik. (2) Pengawasan meliputi: a. pendaftaran Sistem Elektronik; b. penyelenggaraan sesuai ketentuan; c. perlindungan Data Pribadi; d. penyelenggaraan Transaksi Elektronik; dan e. penanganan konten dilarang."
+    },
+    {
+      "provision_ref": "pasal30",
+      "chapter": "BAB IX - Pengawasan",
+      "section": "30",
+      "title": "Sanksi Administratif",
+      "content": "Pasal 30. (1) Pelanggaran ketentuan PP ini dikenai sanksi administratif berupa: a. teguran tertulis; b. denda administratif; c. penghentian sementara; d. pemutusan akses; dan/atau e. dikeluarkan dari daftar. (2) Sanksi diberikan secara bertahap."
+    },
+    {
+      "provision_ref": "pasal31",
+      "chapter": "BAB X - Ketentuan Peralihan",
+      "section": "31",
+      "title": "Ketentuan Peralihan",
+      "content": "Pasal 31. Penyelenggara Sistem Elektronik yang telah beroperasi sebelum PP ini berlaku wajib menyesuaikan paling lama 1 (satu) tahun sejak diundangkan."
+    },
+    {
+      "provision_ref": "pasal32",
+      "chapter": "BAB XI - Ketentuan Penutup",
+      "section": "32",
+      "title": "Pencabutan PP 82/2012",
+      "content": "Pasal 32. Pada saat PP ini mulai berlaku, Peraturan Pemerintah Nomor 82 Tahun 2012 tentang Penyelenggaraan Sistem dan Transaksi Elektronik dicabut dan dinyatakan tidak berlaku."
+    },
+    {
+      "provision_ref": "pasal33",
+      "chapter": "BAB XI - Ketentuan Penutup",
+      "section": "33",
+      "title": "Mulai Berlaku",
+      "content": "Pasal 33. Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Ditetapkan di Jakarta pada tanggal 10 Oktober 2019. Lembaran Negara Republik Indonesia Tahun 2019 Nomor 185."
     }
   ],
-  "definitions": []
+  "definitions": [
+    {
+      "term": "Penyelenggara Sistem Elektronik (PSE)",
+      "definition": "Setiap Orang, penyelenggara negara, Badan Usaha, dan masyarakat yang menyediakan, mengelola, dan/atau mengoperasikan Sistem Elektronik."
+    },
+    {
+      "term": "PSE Lingkup Publik",
+      "definition": "Penyelenggara negara atau institusi yang ditunjuk untuk layanan publik."
+    },
+    {
+      "term": "PSE Lingkup Privat",
+      "definition": "Orang, Badan Usaha, dan masyarakat yang menyelenggarakan Sistem Elektronik selain lingkup publik."
+    },
+    {
+      "term": "Data Elektronik Strategis",
+      "definition": "Data yang pengelolaannya berdampak pada keamanan dan ketahanan negara."
+    },
+    {
+      "term": "Sertifikasi Keandalan",
+      "definition": "Sertifikat yang diterbitkan oleh lembaga independen yang menyatakan bahwa pelaku usaha telah memenuhi standar keandalan tertentu."
+    }
+  ]
 }
