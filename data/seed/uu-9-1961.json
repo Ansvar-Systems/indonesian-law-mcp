@@ -1,0 +1,22 @@
+{
+  "id": "uu-9-1961",
+  "type": "statute",
+  "title": "Pengumpulan Uang Atau Barang",
+  "title_en": "",
+  "short_name": "UU 9/1961",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-9-tahun-1961",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 9/1961 - Summary",
+      "content": "Pengumpulan Uang Atau Barang\nType: UU No. 9 of 1961\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-9-tahun-1961\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

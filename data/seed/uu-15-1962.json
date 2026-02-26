@@ -1,0 +1,22 @@
+{
+  "id": "uu-15-1962",
+  "type": "statute",
+  "title": "Penetapan Peraturan Pemerintah Pengganti Undang Undang No. 2 Tahun 1962 Tentang Kewajiban Perusahaan Minyak Memenuhi Kebutuhan dalam Negeri",
+  "title_en": "",
+  "short_name": "UU 15/1962",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-15-tahun-1962",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 15/1962 - Summary",
+      "content": "Penetapan Peraturan Pemerintah Pengganti Undang Undang No. 2 Tahun 1962 Tentang Kewajiban Perusahaan Minyak Memenuhi Kebutuhan dalam Negeri\nType: UU No. 15 of 1962\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-15-tahun-1962\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

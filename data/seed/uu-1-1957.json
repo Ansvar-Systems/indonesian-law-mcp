@@ -1,0 +1,22 @@
+{
+  "id": "uu-1-1957",
+  "type": "statute",
+  "title": "Pokok-pokok Pemerintahan Daerah",
+  "title_en": "",
+  "short_name": "UU 1/1957",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-1-tahun-1957",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 1/1957 - Summary",
+      "content": "Pokok-pokok Pemerintahan Daerah\nType: UU No. 1 of 1957\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-1-tahun-1957\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

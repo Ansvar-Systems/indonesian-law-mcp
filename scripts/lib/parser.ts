@@ -1,9 +1,12 @@
 /**
- * HTML parser for Indonesian legislation from BPK RI (peraturan.bpk.go.id)
+ * HTML parser for Indonesian legislation
  *
- * BPK RI serves legislation as structured HTML pages. Each law page contains
- * the full text with articles (Pasal) and chapters (Bab). The HTML structure
- * uses consistent patterns:
+ * Supports two source formats:
+ *   1. BPK RI (peraturan.bpk.go.id) — full-text HTML with Pasal/Bab structure
+ *   2. peraturan.go.id — metadata-only detail pages with PDF download links
+ *
+ * BPK RI HTML contains the full statute text with articles (Pasal) and chapters (Bab).
+ * The HTML uses consistent patterns:
  *
  *   Pasal X            -- article heading (Pasal = Article in Indonesian)
  *   (1) text           -- numbered subsection (ayat)
@@ -14,6 +17,20 @@
  *
  * provision_ref format: "pasal1", "pasal2", etc. (Indonesian "Pasal" = Article)
  */
+
+export interface CensusLaw {
+  id: string;
+  slug: string;
+  number: string;
+  year: string;
+  title: string;
+  title_en: string;
+  status: 'in_force' | 'repealed' | 'amended' | 'unknown';
+  url_peraturan_go_id: string;
+  url_bpk_ri: string;
+  bpk_detail_id: string;
+  classification: 'ingestable' | 'metadata_only' | 'inaccessible';
+}
 
 export interface ActIndexEntry {
   id: string;
@@ -166,8 +183,6 @@ export function parseIndonesianHtml(html: string, act: ActIndexEntry): ParsedAct
     const chapter = extractCurrentBab(html, current.index);
 
     // Try to extract a title/topic from the first line of content
-    // Indonesian articles often start with "Pasal X\n(1) Content..."
-    // The title is inferred from chapter context
     const titleLine = content.split('\n')[0] ?? '';
     const title = titleLine.replace(/^Pasal\s+\d+[A-Za-z]*\s*/i, '').trim();
 
@@ -202,6 +217,86 @@ export function parseIndonesianHtml(html: string, act: ActIndexEntry): ParsedAct
 }
 
 /**
+ * Parse BPK RI HTML using census law metadata instead of ActIndexEntry.
+ */
+export function parseBpkHtml(html: string, law: CensusLaw): ParsedAct {
+  const act: ActIndexEntry = {
+    id: law.id,
+    lawType: 'UU',
+    lawNumber: law.number,
+    lawYear: law.year,
+    title: law.title,
+    titleEn: law.title_en,
+    shortName: `UU ${law.number}/${law.year}`,
+    status: law.status === 'unknown' ? 'in_force' : law.status as ActIndexEntry['status'],
+    issuedDate: '',
+    inForceDate: '',
+    url: law.url_bpk_ri || law.url_peraturan_go_id,
+    description: '',
+  };
+  return parseIndonesianHtml(html, act);
+}
+
+/**
+ * Parse metadata from a peraturan.go.id detail page.
+ * Extracts: title, status, issued date, PDF URL.
+ */
+export function parsePeraturanGoIdDetail(html: string, law: CensusLaw): {
+  title: string;
+  status: string;
+  issuedDate: string;
+  pdfUrl: string;
+} {
+  // Extract title - usually in the page heading
+  const titleMatch = html.match(/<h[12][^>]*>([^<]+(?:Tentang\s+[^<]+)?)<\/h[12]>/i)
+    || html.match(/Undang-undang\s+Nomor\s+\d+\s+Tahun\s+\d+\s+Tentang\s+([^<]+)/i);
+  const title = titleMatch ? stripHtml(titleMatch[1]).trim() : law.title;
+
+  // Extract status - "Berlaku" (In Effect), "Tidak Berlaku" (Repealed)
+  const statusMatch = html.match(/(?:Status|status)[:\s]*(?:<[^>]+>)*\s*(Berlaku|Tidak Berlaku|Diubah)/i);
+  let status = 'in_force';
+  if (statusMatch) {
+    const raw = statusMatch[1].toLowerCase();
+    if (raw.includes('tidak')) status = 'repealed';
+    else if (raw.includes('diubah')) status = 'amended';
+  }
+
+  // Extract issued date - "17 Oktober 2022"
+  const dateMatch = html.match(/(?:Tanggal|tanggal)[^<]*?(\d{1,2}\s+[A-Za-z]+\s+\d{4})/i);
+  const issuedDate = dateMatch ? parseIndonesianDate(dateMatch[1]) : '';
+
+  // Extract PDF URL - pattern: /files/Salinan+UU+Nomor+N+Tahun+YYYY.pdf
+  const pdfMatch = html.match(/href="([^"]*\.pdf)"/i)
+    || html.match(/src="([^"]*\.pdf)"/i);
+  const pdfUrl = pdfMatch
+    ? (pdfMatch[1].startsWith('http') ? pdfMatch[1] : `https://peraturan.go.id${pdfMatch[1]}`)
+    : '';
+
+  return { title, status, issuedDate, pdfUrl };
+}
+
+/**
+ * Parse Indonesian month names to ISO date.
+ */
+function parseIndonesianDate(dateStr: string): string {
+  const months: Record<string, string> = {
+    januari: '01', februari: '02', maret: '03', april: '04',
+    mei: '05', juni: '06', juli: '07', agustus: '08',
+    september: '09', oktober: '10', november: '11', desember: '12',
+  };
+
+  const parts = dateStr.trim().split(/\s+/);
+  if (parts.length !== 3) return '';
+
+  const day = parts[0].padStart(2, '0');
+  const month = months[parts[1].toLowerCase()] ?? '';
+  const year = parts[2];
+
+  if (!month) return '';
+  return `${year}-${month}-${day}`;
+}
+
+/**
  * Extract term definitions from the Ketentuan Umum (General Provisions) section.
  *
  * Indonesian statutes typically define terms in Pasal 1 using numbered points:
@@ -216,9 +311,6 @@ function extractDefinitions(
   sourceProvision: string,
   definitions: ParsedDefinition[],
 ): void {
-  // Pattern: numbered definition items
-  // e.g., "1. Data Pribadi adalah data tentang..."
-  // e.g., "2. Pengendali Data Pribadi yang selanjutnya disebut Pengendali..."
   const lines = text.split('\n');
   let currentDef = '';
 
@@ -239,7 +331,6 @@ function extractDefinitions(
     } else if (currentDef && /^\d+\./.test(trimmed)) {
       // New numbered item starts - save previous and start fresh
       pushDefinition(currentDef, sourceProvision, definitions);
-      // Check if this line is also a definition
       const newDef = trimmed.match(
         /^\d+\.\s+(.+?)\s+(?:adalah|ialah|yang dimaksud dengan)\s+(.+)/i,
       );
@@ -286,22 +377,14 @@ function pushDefinition(
 }
 
 /**
- * Pre-configured list of key Indonesian laws to ingest.
+ * Pre-configured list of key Indonesian laws (legacy fallback).
  *
- * Source: peraturan.bpk.go.id (BPK RI legislation database)
- * URL pattern: https://peraturan.bpk.go.id/Details/{ID}/{slug}
- *
- * These are the most important laws for cybersecurity, data protection,
- * electronic transactions, and compliance use cases in Indonesia.
- *
- * Indonesian law types:
- *   UU    = Undang-Undang (Law)
- *   PP    = Peraturan Pemerintah (Government Regulation)
- *   UUD   = Undang-Undang Dasar (Constitution)
+ * The census-driven pipeline reads data/census.json instead.
+ * This list is kept as a fallback for when census is not available.
  */
 export const KEY_INDONESIAN_ACTS: ActIndexEntry[] = [
   {
-    id: 'uu-27-2022-pdp',
+    id: 'uu-27-2022',
     lawType: 'UU',
     lawNumber: '27',
     lawYear: '2022',
@@ -312,10 +395,10 @@ export const KEY_INDONESIAN_ACTS: ActIndexEntry[] = [
     issuedDate: '2022-10-17',
     inForceDate: '2022-10-17',
     url: 'https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022',
-    description: 'Comprehensive personal data protection law (Perlindungan Data Pribadi); Indonesia\'s equivalent of the EU GDPR with a 2-year transition period ending October 2024',
+    description: 'Comprehensive personal data protection law; Indonesia\'s equivalent of the EU GDPR',
   },
   {
-    id: 'uu-11-2008-ite',
+    id: 'uu-11-2008',
     lawType: 'UU',
     lawNumber: '11',
     lawYear: '2008',
@@ -326,38 +409,24 @@ export const KEY_INDONESIAN_ACTS: ActIndexEntry[] = [
     issuedDate: '2008-04-21',
     inForceDate: '2008-04-21',
     url: 'https://peraturan.bpk.go.id/Details/37589/uu-no-11-tahun-2008',
-    description: 'Electronic information and transactions law; covers e-commerce, digital signatures, cybercrimes; amended by UU 19/2016',
+    description: 'Electronic information and transactions law; covers e-commerce, digital signatures, cybercrimes',
   },
   {
-    id: 'uu-19-2016-ite-amendment',
+    id: 'uu-19-2016',
     lawType: 'UU',
     lawNumber: '19',
     lawYear: '2016',
-    title: 'Undang-Undang Nomor 19 Tahun 2016 tentang Perubahan atas UU Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik',
-    titleEn: 'Law No. 19 of 2016 amending Law No. 11 of 2008 on Electronic Information and Transactions',
+    title: 'Undang-Undang Nomor 19 Tahun 2016 tentang Perubahan atas UU No. 11 Tahun 2008',
+    titleEn: 'Law No. 19 of 2016 amending the ITE Law',
     shortName: 'UU 19/2016 ITE Amdt',
     status: 'in_force',
     issuedDate: '2016-11-25',
     inForceDate: '2016-11-25',
     url: 'https://peraturan.bpk.go.id/Details/37582/uu-no-19-tahun-2016',
-    description: 'Amendment to the ITE Law; revised defamation provisions, added right to be forgotten, strengthened electronic evidence rules',
+    description: 'Amendment to the ITE Law',
   },
   {
-    id: 'pp-71-2019-pste',
-    lawType: 'PP',
-    lawNumber: '71',
-    lawYear: '2019',
-    title: 'Peraturan Pemerintah Nomor 71 Tahun 2019 tentang Penyelenggaraan Sistem dan Transaksi Elektronik',
-    titleEn: 'Government Regulation No. 71 of 2019 on the Operation of Electronic Systems and Transactions',
-    shortName: 'PP 71/2019 PSTE',
-    status: 'in_force',
-    issuedDate: '2019-10-10',
-    inForceDate: '2019-10-10',
-    url: 'https://peraturan.bpk.go.id/Details/131060/pp-no-71-tahun-2019',
-    description: 'Implementing regulation for electronic systems and transactions; covers data localization, electronic system registration, content moderation',
-  },
-  {
-    id: 'uu-40-2007-pt',
+    id: 'uu-40-2007',
     lawType: 'UU',
     lawNumber: '40',
     lawYear: '2007',
@@ -368,10 +437,10 @@ export const KEY_INDONESIAN_ACTS: ActIndexEntry[] = [
     issuedDate: '2007-08-16',
     inForceDate: '2007-08-16',
     url: 'https://peraturan.bpk.go.id/Details/39965/uu-no-40-tahun-2007',
-    description: 'Company law governing establishment, governance, and dissolution of limited liability companies (Perseroan Terbatas / PT)',
+    description: 'Company law (Perseroan Terbatas / PT)',
   },
   {
-    id: 'uu-8-1999-perlindungan-konsumen',
+    id: 'uu-8-1999',
     lawType: 'UU',
     lawNumber: '8',
     lawYear: '1999',
@@ -382,76 +451,6 @@ export const KEY_INDONESIAN_ACTS: ActIndexEntry[] = [
     issuedDate: '1999-04-20',
     inForceDate: '2000-04-20',
     url: 'https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999',
-    description: 'Consumer protection law establishing consumer rights, business obligations, and dispute resolution mechanisms',
-  },
-  {
-    id: 'uud-1945',
-    lawType: 'UUD',
-    lawNumber: '1945',
-    lawYear: '1945',
-    title: 'Undang-Undang Dasar Negara Republik Indonesia Tahun 1945',
-    titleEn: 'Constitution of the Republic of Indonesia 1945 (UUD 1945)',
-    shortName: 'UUD 1945',
-    status: 'in_force',
-    issuedDate: '1945-08-18',
-    inForceDate: '1945-08-18',
-    url: 'https://peraturan.bpk.go.id/Details/41175/uud-tahun-1945',
-    description: 'Supreme law of Indonesia; Pasal 28G guarantees protection of personal and family data; Pasal 28F guarantees right to communicate and obtain information',
-  },
-  {
-    id: 'uu-36-1999-telekomunikasi',
-    lawType: 'UU',
-    lawNumber: '36',
-    lawYear: '1999',
-    title: 'Undang-Undang Nomor 36 Tahun 1999 tentang Telekomunikasi',
-    titleEn: 'Law No. 36 of 1999 on Telecommunications',
-    shortName: 'UU 36/1999 Telecom',
-    status: 'in_force',
-    issuedDate: '1999-09-08',
-    inForceDate: '2000-09-08',
-    url: 'https://peraturan.bpk.go.id/Details/45196/uu-no-36-tahun-1999',
-    description: 'Telecommunications law regulating telecom operators, spectrum management, and interconnection; foundation for digital infrastructure regulation',
-  },
-  {
-    id: 'uu-3-2011-transfer-dana',
-    lawType: 'UU',
-    lawNumber: '3',
-    lawYear: '2011',
-    title: 'Undang-Undang Nomor 3 Tahun 2011 tentang Transfer Dana',
-    titleEn: 'Law No. 3 of 2011 on Fund Transfer',
-    shortName: 'UU 3/2011 Fund Transfer',
-    status: 'in_force',
-    issuedDate: '2011-03-23',
-    inForceDate: '2011-03-23',
-    url: 'https://peraturan.bpk.go.id/Details/39126/uu-no-3-tahun-2011',
-    description: 'Fund transfer law governing electronic fund transfers, payment orders, and settlement finality',
-  },
-  {
-    id: 'pp-80-2019-perdagangan-elektronik',
-    lawType: 'PP',
-    lawNumber: '80',
-    lawYear: '2019',
-    title: 'Peraturan Pemerintah Nomor 80 Tahun 2019 tentang Perdagangan Melalui Sistem Elektronik',
-    titleEn: 'Government Regulation No. 80 of 2019 on E-Commerce',
-    shortName: 'PP 80/2019 E-Commerce',
-    status: 'in_force',
-    issuedDate: '2019-11-25',
-    inForceDate: '2019-11-25',
-    url: 'https://peraturan.bpk.go.id/Details/133007/pp-no-80-tahun-2019',
-    description: 'E-commerce regulation covering online marketplace obligations, consumer protection in e-commerce, cross-border e-commerce, and business licensing requirements',
-  },
-  {
-    id: 'uu-7-2014-perdagangan',
-    lawType: 'UU',
-    lawNumber: '7',
-    lawYear: '2014',
-    title: 'Undang-Undang Nomor 7 Tahun 2014 tentang Perdagangan',
-    titleEn: 'Law No. 7 of 2014 on Trade',
-    shortName: 'UU 7/2014 Trade',
-    status: 'in_force',
-    issuedDate: '2014-03-11',
-    inForceDate: '2014-03-11',
-    url: 'https://peraturan.bpk.go.id/Details/38560/uu-no-7-tahun-2014',
-    description: 'Trade law covering domestic and international trade, e-commerce provisions, trade facilitation, and consumer goods distribution',
+    description: 'Consumer protection law',
   },
 ];

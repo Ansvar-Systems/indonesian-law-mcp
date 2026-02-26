@@ -1,0 +1,22 @@
+{
+  "id": "uu-12-2014",
+  "type": "statute",
+  "title": "Perubahan Atas Undang-undang Nomor 23 Tahun 2013 Tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2014",
+  "title_en": "",
+  "short_name": "UU 12/2014",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-12-tahun-2014",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 12/2014 - Summary",
+      "content": "Perubahan Atas Undang-undang Nomor 23 Tahun 2013 Tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2014\nType: UU No. 12 of 2014\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-12-tahun-2014\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

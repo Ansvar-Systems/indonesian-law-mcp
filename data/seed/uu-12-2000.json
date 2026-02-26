@@ -1,0 +1,22 @@
+{
+  "id": "uu-12-2000",
+  "type": "statute",
+  "title": "Perubahan Uu 52-1999 Tentang Pembentukan Kabupaten Lembata",
+  "title_en": "",
+  "short_name": "UU 12/2000",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-12-tahun-2000",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 12/2000 - Summary",
+      "content": "Perubahan Uu 52-1999 Tentang Pembentukan Kabupaten Lembata\nType: UU No. 12 of 2000\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-12-tahun-2000\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "uu-1-2010",
+  "type": "statute",
+  "title": "Pertanggungjawaban Atas Pelaksanaan Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2008",
+  "title_en": "",
+  "short_name": "UU 1/2010",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-1-tahun-2010",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 1/2010 - Summary",
+      "content": "Pertanggungjawaban Atas Pelaksanaan Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2008\nType: UU No. 1 of 2010\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-1-tahun-2010\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

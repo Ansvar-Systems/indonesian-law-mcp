@@ -1,0 +1,22 @@
+{
+  "id": "uu-1-1981",
+  "type": "statute",
+  "title": "Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1981/1982",
+  "title_en": "",
+  "short_name": "UU 1/1981",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-1-tahun-1981",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 1/1981 - Summary",
+      "content": "Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1981/1982\nType: UU No. 1 of 1981\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-1-tahun-1981\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

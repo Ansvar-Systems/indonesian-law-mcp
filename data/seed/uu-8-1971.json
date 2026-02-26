@@ -1,0 +1,22 @@
+{
+  "id": "uu-8-1971",
+  "type": "statute",
+  "title": "Perusahaan Pertambangan Minyak dan Gas Bumi Negara",
+  "title_en": "",
+  "short_name": "UU 8/1971",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-8-tahun-1971",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 8/1971 - Summary",
+      "content": "Perusahaan Pertambangan Minyak dan Gas Bumi Negara\nType: UU No. 8 of 1971\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-8-tahun-1971\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

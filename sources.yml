@@ -11,14 +11,14 @@ sources:
     retrieval_method: "HTML_SCRAPE"
     api_documentation: "N/A (structured database with search and browse functionality)"
     update_frequency: "weekly"
-    last_ingested: "PENDING_FIRST_INGEST"
+    last_ingested: "2026-02-26"
     license_or_terms:
       type: "Government Open Data"
       url: "https://peraturan.bpk.go.id"
       summary: "Official repository of Indonesian laws and regulations maintained by the Audit Board (BPK RI); publicly accessible database of Undang-Undang (Laws), Peraturan Pemerintah (Government Regulations), Peraturan Presiden (Presidential Regulations), and other regulatory instruments"
     coverage:
-      scope: "All Undang-Undang (UU/Laws), Peraturan Pemerintah (PP/Government Regulations), Peraturan Presiden (Perpres/Presidential Regulations), Peraturan Menteri (Ministerial Regulations), and the Constitution (UUD 1945); covers the PDP Law (UU 27/2022), ITE Law (UU 11/2008 as amended by UU 19/2016), Company Law (UU 40/2007), Consumer Protection (UU 8/1999), and electronic system regulations"
-      limitations: "Primarily in Bahasa Indonesia; English translations are available for some major laws but are unofficial and may lag behind Indonesian originals; implementing regulations (peraturan pelaksana) may not be immediately available after enactment; historical legislation before digitisation may be incomplete"
+      scope: "1,924 Undang-Undang (UU/Laws) from 1946-2026; 8 key laws with full Pasal text (PDP Law, ITE Law, Company Law, Consumer Protection, Telecommunications, Trade, Fund Transfer, ITE Amendment); 1,916 laws with metadata (title, year, number, status). Census-first approach enumerating all laws from peraturan.go.id"
+      limitations: "BPK RI full-text HTML is geo-restricted; most laws have metadata only until ingested from an Indonesian IP. Primarily in Bahasa Indonesia; English translations are unofficial. Peraturan Pemerintah (PP) and Peraturan Presiden (Perpres) not yet covered."
     languages:
       - "id"
       - "en"
@@ -30,21 +30,21 @@ sources:
     retrieval_method: "HTML_SCRAPE"
     api_documentation: "N/A"
     update_frequency: "weekly"
-    last_ingested: "PENDING_FIRST_INGEST"
+    last_ingested: "2026-02-26"
     license_or_terms:
       type: "Government Open Data"
       url: "https://www.peraturan.go.id"
       summary: "Official legal documentation and information network managed by the Ministry of Law and Human Rights; provides access to legislation, regulatory instruments, and legal documentation"
     coverage:
-      scope: "National legal documentation including Laws (UU), Government Regulations (PP), Presidential Regulations (Perpres), Presidential Decrees (Keppres), and supplementary regulatory instruments; includes State Gazette (Lembaran Negara) and State Gazette Supplement (Tambahan Lembaran Negara) references"
-      limitations: "Some implementing regulations may not be immediately reflected; PDF format for some documents requires parsing; primarily in Bahasa Indonesia"
+      scope: "Census source for 1,924 Undang-Undang (UU/Laws). Paginated listing at /uu provides title, number, year, status, and PDF download links. Detail pages at /id/{slug} provide metadata. Full article text available only as PDF download."
+      limitations: "No inline article text on detail pages; full text only available as PDF. Used primarily for census enumeration, not for article extraction."
     languages:
       - "id"
 
 data_freshness:
   automated_checks: true
   check_frequency: "weekly"
-  last_verified: "PENDING_FIRST_INGEST"
+  last_verified: "2026-02-26"
 
 # Notes:
 # - Indonesia uses a civil law system heavily influenced by Dutch colonial law (Burgerlijk

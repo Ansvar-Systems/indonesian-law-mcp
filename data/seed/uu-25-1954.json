@@ -1,0 +1,22 @@
+{
+  "id": "uu-25-1954",
+  "type": "statute",
+  "title": "Perjanjian-perjanjian Pos Sedunia",
+  "title_en": "",
+  "short_name": "UU 25/1954",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-25-tahun-1954",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 25/1954 - Summary",
+      "content": "Perjanjian-perjanjian Pos Sedunia\nType: UU No. 25 of 1954\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-25-tahun-1954\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

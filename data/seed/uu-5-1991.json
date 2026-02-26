@@ -1,0 +1,22 @@
+{
+  "id": "uu-5-1991",
+  "type": "statute",
+  "title": "Kejaksaan Ri",
+  "title_en": "",
+  "short_name": "UU 5/1991",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-5-tahun-1991",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 5/1991 - Summary",
+      "content": "Kejaksaan Ri\nType: UU No. 5 of 1991\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-5-tahun-1991\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

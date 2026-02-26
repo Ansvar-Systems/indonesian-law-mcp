@@ -1,0 +1,22 @@
+{
+  "id": "uu-10-1961",
+  "type": "statute",
+  "title": "Penetapan Peraturan Pemerintah Pengganti Undang-undang Nomor 1 Tahun 1961 Tentang Barang Menjadi Undang-undang",
+  "title_en": "",
+  "short_name": "UU 10/1961",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-10-tahun-1961",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 10/1961 - Summary",
+      "content": "Penetapan Peraturan Pemerintah Pengganti Undang-undang Nomor 1 Tahun 1961 Tentang Barang Menjadi Undang-undang\nType: UU No. 10 of 1961\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-10-tahun-1961\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

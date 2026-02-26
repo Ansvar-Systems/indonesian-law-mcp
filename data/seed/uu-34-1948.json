@@ -1,0 +1,22 @@
+{
+  "id": "uu-34-1948",
+  "type": "statute",
+  "title": "Daerah Pendudukan Buat Sementara Waktu Tidak Masuk dalam Daerah Pabean",
+  "title_en": "",
+  "short_name": "UU 34/1948",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-34-tahun-1948",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 34/1948 - Summary",
+      "content": "Daerah Pendudukan Buat Sementara Waktu Tidak Masuk dalam Daerah Pabean\nType: UU No. 34 of 1948\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-34-tahun-1948\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

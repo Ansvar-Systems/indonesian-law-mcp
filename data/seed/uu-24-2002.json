@@ -1,0 +1,22 @@
+{
+  "id": "uu-24-2002",
+  "type": "statute",
+  "title": "Surat Utang Negara",
+  "title_en": "",
+  "short_name": "UU 24/2002",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-24-tahun-2002",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 24/2002 - Summary",
+      "content": "Surat Utang Negara\nType: UU No. 24 of 2002\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-24-tahun-2002\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

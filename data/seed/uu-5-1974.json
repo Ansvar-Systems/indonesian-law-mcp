@@ -1,0 +1,22 @@
+{
+  "id": "uu-5-1974",
+  "type": "statute",
+  "title": "Pokok-pokok Pemerintahan di Daerah",
+  "title_en": "",
+  "short_name": "UU 5/1974",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-5-tahun-1974",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 5/1974 - Summary",
+      "content": "Pokok-pokok Pemerintahan di Daerah\nType: UU No. 5 of 1974\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-5-tahun-1974\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "uu-17-2007",
+  "type": "statute",
+  "title": "Rencana Pembangunan Jangka Panjang Nasional Tahun 2005-2025",
+  "title_en": "",
+  "short_name": "UU 17/2007",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-17-tahun-2007",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 17/2007 - Summary",
+      "content": "Rencana Pembangunan Jangka Panjang Nasional Tahun 2005-2025\nType: UU No. 17 of 2007\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-17-tahun-2007\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "uu-4-1992",
+  "type": "statute",
+  "title": "Perumahan dan Pemukiman",
+  "title_en": "",
+  "short_name": "UU 4/1992",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-4-tahun-1992",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 4/1992 - Summary",
+      "content": "Perumahan dan Pemukiman\nType: UU No. 4 of 1992\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-4-tahun-1992\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "uu-23-2004",
+  "type": "statute",
+  "title": "Penghapusan Kekerasan dalam Rumah Tangga",
+  "title_en": "",
+  "short_name": "UU 23/2004",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-23-tahun-2004",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 23/2004 - Summary",
+      "content": "Penghapusan Kekerasan dalam Rumah Tangga\nType: UU No. 23 of 2004\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-23-tahun-2004\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

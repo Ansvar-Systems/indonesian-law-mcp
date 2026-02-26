@@ -1,0 +1,22 @@
+{
+  "id": "uu-95-2024",
+  "type": "statute",
+  "title": "Kabupaten Ogan Komering Ulu di Provinsi Sumatera Utara",
+  "title_en": "",
+  "short_name": "UU 95/2024",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-95-tahun-2024",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 95/2024 - Summary",
+      "content": "Kabupaten Ogan Komering Ulu di Provinsi Sumatera Utara\nType: UU No. 95 of 2024\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-95-tahun-2024\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

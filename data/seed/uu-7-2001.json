@@ -1,0 +1,22 @@
+{
+  "id": "uu-7-2001",
+  "type": "statute",
+  "title": "Pembentukan Kota Lubuk Linggau",
+  "title_en": "",
+  "short_name": "UU 7/2001",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-7-tahun-2001",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 7/2001 - Summary",
+      "content": "Pembentukan Kota Lubuk Linggau\nType: UU No. 7 of 2001\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-7-tahun-2001\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

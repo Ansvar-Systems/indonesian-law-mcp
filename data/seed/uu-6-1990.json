@@ -1,0 +1,22 @@
+{
+  "id": "uu-6-1990",
+  "type": "statute",
+  "title": "Pembentukan Kabupaten Daerah Tingkat Ii Halmahera Tengah",
+  "title_en": "",
+  "short_name": "UU 6/1990",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-6-tahun-1990",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 6/1990 - Summary",
+      "content": "Pembentukan Kabupaten Daerah Tingkat Ii Halmahera Tengah\nType: UU No. 6 of 1990\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-6-tahun-1990\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

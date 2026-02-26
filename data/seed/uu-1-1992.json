@@ -1,0 +1,22 @@
+{
+  "id": "uu-1-1992",
+  "type": "statute",
+  "title": "Pembentukan Kotamadya Daerah Tingkat Ii Denpasar",
+  "title_en": "",
+  "short_name": "UU 1/1992",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-1-tahun-1992",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 1/1992 - Summary",
+      "content": "Pembentukan Kotamadya Daerah Tingkat Ii Denpasar\nType: UU No. 1 of 1992\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-1-tahun-1992\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

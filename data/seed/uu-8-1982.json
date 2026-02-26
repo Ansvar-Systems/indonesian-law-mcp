@@ -1,0 +1,22 @@
+{
+  "id": "uu-8-1982",
+  "type": "statute",
+  "title": "Perhitungan Anggaran Negara Tahun 1974/1975",
+  "title_en": "",
+  "short_name": "UU 8/1982",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-8-tahun-1982",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 8/1982 - Summary",
+      "content": "Perhitungan Anggaran Negara Tahun 1974/1975\nType: UU No. 8 of 1982\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-8-tahun-1982\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

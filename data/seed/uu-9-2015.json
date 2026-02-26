@@ -1,0 +1,22 @@
+{
+  "id": "uu-9-2015",
+  "type": "statute",
+  "title": "Perubahan Kedua Atas Undang-undang Nomor 23 Tahun 2014 Tentang Pemerintahan Daerah",
+  "title_en": "",
+  "short_name": "UU 9/2015",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-9-tahun-2015",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 9/2015 - Summary",
+      "content": "Perubahan Kedua Atas Undang-undang Nomor 23 Tahun 2014 Tentang Pemerintahan Daerah\nType: UU No. 9 of 2015\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-9-tahun-2015\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

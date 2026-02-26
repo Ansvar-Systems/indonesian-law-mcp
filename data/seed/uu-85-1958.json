@@ -1,0 +1,22 @@
+{
+  "id": "uu-85-1958",
+  "type": "statute",
+  "title": "Rencana Pembangunan Lima Tahun 1956-1960",
+  "title_en": "",
+  "short_name": "UU 85/1958",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-85-tahun-1958",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 85/1958 - Summary",
+      "content": "Rencana Pembangunan Lima Tahun 1956-1960\nType: UU No. 85 of 1958\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-85-tahun-1958\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

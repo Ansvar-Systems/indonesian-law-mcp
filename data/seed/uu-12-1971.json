@@ -1,0 +1,22 @@
+{
+  "id": "uu-12-1971",
+  "type": "statute",
+  "title": "Penetapan Peraturan Pemerintah Pengganti Undang-undang Nomor 1 Tahun 1971 Tentang Pencabutan Undang-undang Nomor 17 Tahun 1964 Tentang Larangan Penarikan Cek Kosong Menjadi Undang-undang",
+  "title_en": "",
+  "short_name": "UU 12/1971",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-12-tahun-1971",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 12/1971 - Summary",
+      "content": "Penetapan Peraturan Pemerintah Pengganti Undang-undang Nomor 1 Tahun 1971 Tentang Pencabutan Undang-undang Nomor 17 Tahun 1964 Tentang Larangan Penarikan Cek Kosong Menjadi Undang-undang\nType: UU No. 12 of 1971\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-12-tahun-1971\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

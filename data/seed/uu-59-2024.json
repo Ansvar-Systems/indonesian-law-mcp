@@ -1,0 +1,22 @@
+{
+  "id": "uu-59-2024",
+  "type": "statute",
+  "title": "Rencana Pembangunan Jangka Panjang Nasional Tahun 2025-2045",
+  "title_en": "",
+  "short_name": "UU 59/2024",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-59-tahun-2024",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 59/2024 - Summary",
+      "content": "Rencana Pembangunan Jangka Panjang Nasional Tahun 2025-2045\nType: UU No. 59 of 2024\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-59-tahun-2024\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

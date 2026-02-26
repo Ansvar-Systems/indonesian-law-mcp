@@ -1,0 +1,22 @@
+{
+  "id": "uu-43-1999",
+  "type": "statute",
+  "title": "Perubahan Uu 8-1974 Tentang Pokok-pokok Kepegawaian",
+  "title_en": "",
+  "short_name": "UU 43/1999",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-43-tahun-1999",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 43/1999 - Summary",
+      "content": "Perubahan Uu 8-1974 Tentang Pokok-pokok Kepegawaian\nType: UU No. 43 of 1999\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-43-tahun-1999\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "uu-16-2006",
+  "type": "statute",
+  "title": "Sistem Penyuluhan Pertanian, Perikanan, dan Kehutanan",
+  "title_en": "",
+  "short_name": "UU 16/2006",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-16-tahun-2006",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 16/2006 - Summary",
+      "content": "Sistem Penyuluhan Pertanian, Perikanan, dan Kehutanan\nType: UU No. 16 of 2006\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-16-tahun-2006\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

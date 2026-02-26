@@ -1,0 +1,22 @@
+{
+  "id": "uu-8-2022",
+  "type": "statute",
+  "title": "Provinsi Kalimantan Selatan",
+  "title_en": "",
+  "short_name": "UU 8/2022",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-8-tahun-2022",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 8/2022 - Summary",
+      "content": "Provinsi Kalimantan Selatan\nType: UU No. 8 of 2022\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-8-tahun-2022\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}

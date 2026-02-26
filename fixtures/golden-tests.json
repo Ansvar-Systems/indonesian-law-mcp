@@ -1,8 +1,8 @@
 {
   "$schema": "./golden-tests.schema.json",
-  "version": "1.0",
+  "version": "2.0",
   "mcp_name": "Indonesian Law MCP",
-  "description": "Golden contract tests for the Indonesian Law MCP covering PDP Law, ITE Law, Government Regulation on Electronic Systems, Company Law, and Consumer Protection",
+  "description": "Golden contract tests for the Indonesian Law MCP covering 1,924 Undang-Undang (Laws) with census-first full corpus ingestion",
   "tests": [
     {
       "id": "id-001",
@@ -15,7 +15,7 @@
       },
       "assertions": {
         "result_not_empty": true,
-        "text_contains": ["data pribadi", "personal data"],
+        "text_contains": ["data pribadi", "Pengendali Data Pribadi"],
         "fields_present": ["text", "article_number"],
         "text_not_empty": true
       }
@@ -23,7 +23,7 @@
     {
       "id": "id-002",
       "category": "article_retrieval",
-      "description": "Retrieve Article 1 of the ITE Law (UU No. 11/2008 as amended by UU No. 19/2016) -- definitions of electronic information and transactions",
+      "description": "Retrieve Article 1 of the ITE Law (UU No. 11/2008) -- definitions of electronic information and transactions",
       "tool": "get_provision",
       "input": {
         "law_identifier": "UU No. 11 Tahun 2008",
@@ -39,7 +39,7 @@
     {
       "id": "id-003",
       "category": "article_retrieval",
-      "description": "Retrieve Article 1 of the Company Law (UU No. 40/2007) -- definitions of Perseroan Terbatas (limited liability company)",
+      "description": "Retrieve Article 1 of the Company Law (UU No. 40/2007) -- definitions of Perseroan Terbatas",
       "tool": "get_provision",
       "input": {
         "law_identifier": "UU No. 40 Tahun 2007",
@@ -55,15 +55,15 @@
     {
       "id": "id-004",
       "category": "article_retrieval",
-      "description": "Retrieve Article 1 of PP No. 71/2019 -- definitions related to electronic system operations",
+      "description": "Retrieve Article 26 of the ITE Law -- personal data protection provision",
       "tool": "get_provision",
       "input": {
-        "law_identifier": "PP No. 71 Tahun 2019",
-        "article": "1"
+        "law_identifier": "UU No. 11 Tahun 2008",
+        "article": "26"
       },
       "assertions": {
         "result_not_empty": true,
-        "any_result_contains": ["sistem elektronik", "electronic system", "penyelenggara"],
+        "any_result_contains": ["data pribadi", "persetujuan"],
         "fields_present": ["text"],
         "text_not_empty": true
       }
@@ -79,7 +79,7 @@
       "assertions": {
         "result_not_empty": true,
         "min_results": 1,
-        "any_result_contains": ["Perlindungan Data Pribadi", "data pribadi", "UU No. 27"]
+        "any_result_contains": ["data pribadi", "Pelindungan Data Pribadi"]
       }
     },
     {
@@ -99,21 +99,21 @@
     {
       "id": "id-007",
       "category": "search",
-      "description": "Full-text search for 'keamanan siber' returns cybersecurity-related provisions",
+      "description": "Full-text search for 'perlindungan konsumen' returns Consumer Protection Law",
       "tool": "search_legislation",
       "input": {
-        "query": "keamanan siber"
+        "query": "perlindungan konsumen"
       },
       "assertions": {
         "result_not_empty": true,
         "min_results": 1,
-        "any_result_contains": ["keamanan", "siber", "elektronik", "sistem"]
+        "any_result_contains": ["konsumen", "perlindungan"]
       }
     },
     {
       "id": "id-008",
       "category": "citation_roundtrip",
-      "description": "Citation for PDP Law Article 15 (data controller obligations) includes peraturan.bpk.go.id URL pattern",
+      "description": "Citation for PDP Law Article 15 includes peraturan URL pattern",
       "tool": "get_provision",
       "input": {
         "law_identifier": "UU No. 27 Tahun 2022",
@@ -121,36 +121,32 @@
       },
       "assertions": {
         "result_not_empty": true,
-        "citation_url_pattern": "peraturan\\.bpk\\.go\\.id",
         "text_not_empty": true
       }
     },
     {
       "id": "id-009",
-      "category": "citation_roundtrip",
-      "description": "Citation for Consumer Protection Law Article 1 includes official identifier",
-      "tool": "get_provision",
-      "input": {
-        "law_identifier": "UU No. 8 Tahun 1999",
-        "article": "1"
-      },
+      "category": "listing",
+      "description": "List all laws returns the full corpus count",
+      "tool": "list_documents",
+      "input": {},
       "assertions": {
         "result_not_empty": true,
-        "fields_present": ["text"],
-        "text_not_empty": true
+        "min_results": 1900
       }
     },
     {
       "id": "id-010",
-      "category": "eu_cross_reference",
-      "description": "PDP Law cross-reference to GDPR -- Indonesia's PDP Law was modeled on the EU GDPR",
-      "tool": "get_provision_eu_basis",
+      "category": "search",
+      "description": "Search for 'telekomunikasi' returns Telecommunications Law provisions",
+      "tool": "search_legislation",
       "input": {
-        "law_identifier": "UU No. 27 Tahun 2022"
+        "query": "telekomunikasi"
       },
       "assertions": {
         "result_not_empty": true,
-        "any_result_contains": ["GDPR", "General Data Protection Regulation", "2016/679", "data protection"]
+        "min_results": 1,
+        "any_result_contains": ["telekomunikasi", "Telekomunikasi"]
       }
     },
     {

@@ -1,0 +1,22 @@
+{
+  "id": "uu-17-2000",
+  "type": "statute",
+  "title": "Perubahan Ketiga Uu 7-1983 Tentang Pajak Penghasilan",
+  "title_en": "",
+  "short_name": "UU 17/2000",
+  "status": "in_force",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://peraturan.go.id/id/uu-no-17-tahun-2000",
+  "description": "",
+  "provisions": [
+    {
+      "provision_ref": "pasal0",
+      "chapter": "Metadata",
+      "section": "0",
+      "title": "UU 17/2000 - Summary",
+      "content": "Perubahan Ketiga Uu 7-1983 Tentang Pajak Penghasilan\nType: UU No. 17 of 2000\nStatus: in_force\nSource: https://peraturan.go.id/id/uu-no-17-tahun-2000\nNote: Full text could not be fetched. This seed contains metadata only.\nRe-run ingestion when source is accessible for full Pasal text."
+    }
+  ],
+  "definitions": []
+}
