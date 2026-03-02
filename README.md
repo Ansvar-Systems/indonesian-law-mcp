@@ -1,15 +1,16 @@
 # Indonesian Law MCP Server
 
-**The peraturan.go.id alternative for the AI age.**
+**The JDIH BPK (Jaringan Dokumentasi dan Informasi Hukum) alternative for the AI age.**
 
 [![npm version](https://badge.fury.io/js/@ansvar%2Findonesian-law-mcp.svg)](https://www.npmjs.com/package/@ansvar/indonesian-law-mcp)
 [![MCP Registry](https://img.shields.io/badge/MCP-Registry-blue)](https://registry.modelcontextprotocol.io)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![GitHub stars](https://img.shields.io/github/stars/Ansvar-Systems/indonesian-law-mcp?style=social)](https://github.com/Ansvar-Systems/indonesian-law-mcp)
-[![Database](https://img.shields.io/badge/database-pre--built-green)](data/database.db)
-[![Provisions](https://img.shields.io/badge/provisions-2%2C225-blue)](#whats-included)
+[![CI](https://github.com/Ansvar-Systems/indonesian-law-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/Ansvar-Systems/indonesian-law-mcp/actions/workflows/ci.yml)
+[![Database](https://img.shields.io/badge/database-pre--built-green)](docs/INTERNATIONAL_INTEGRATION_GUIDE.md)
+[![Provisions](https://img.shields.io/badge/provisions-2%2C225-blue)](docs/INTERNATIONAL_INTEGRATION_GUIDE.md)
 
-Query **1,924 Indonesian Undang-Undang (laws)** -- from the PDP Law and ITE Law to the Constitution and Company Law -- directly from Claude, Cursor, or any MCP-compatible client.
+Cari **1.924 Undang-Undang (UU) Indonesia** -- dari UU Pelindungan Data Pribadi (UU PDP No. 27/2022) dan Kitab Undang-Undang Hukum Pidana (KUHP) hingga UU Ketenagakerjaan, UU ITE, dan lebih banyak lagi -- langsung dari Claude, Cursor, atau klien MCP apa pun.
 
 If you're building legal tech, compliance tools, or doing Indonesian legal research, this is your verified reference database.
 
@@ -17,17 +18,17 @@ Built by [Ansvar Systems](https://ansvar.eu) -- Stockholm, Sweden
 
 ---
 
-## Why This Exists
+## Mengapa alat ini ada
 
-Indonesian legal research is scattered across peraturan.go.id, peraturan.bpk.go.id, JDIH Nasional, and individual ministry databases. Whether you're:
-- A **compliance officer** checking PDP Law (data protection) obligations
-- A **legal tech developer** building tools on Indonesian law
-- A **lawyer** validating ITE Law provisions for e-commerce compliance
-- A **researcher** analysing ASEAN data protection frameworks
+Penelitian hukum Indonesia tersebar di peraturan.go.id, jdih.kemenkumham.go.id, BPK RI, dan portal JDIH kementerian yang berbeda-beda. Baik Anda:
+- Seorang **pengacara** memvalidasi kutipan dalam dokumen hukum atau kontrak
+- Seorang **profesional kepatuhan** memeriksa kewajiban UU PDP atau peraturan OJK
+- Seorang **pengembang legaltech** membangun alat berdasarkan hukum Indonesia
+- Seorang **peneliti** melacak peraturan perundang-undangan Indonesia di 1.924 UU
 
-...you shouldn't need to parse government PDFs and navigate fragmented databases. Ask Claude. Get the exact provision. With context.
+...Anda seharusnya tidak memerlukan puluhan tab browser dan pencarian PDF manual. Tanyakan kepada Claude. Dapatkan ketentuan yang tepat. Dengan konteks.
 
-This MCP server makes Indonesian law **searchable, cross-referenceable, and AI-readable**.
+Server MCP ini membuat hukum Indonesia **dapat dicari, dapat direferensikan, dan dapat dibaca oleh AI**.
 
 ---
 
@@ -107,17 +108,21 @@ npx @ansvar/indonesian-law-mcp
 }
 ```
 
-## Example Queries
+---
 
-Once connected, just ask naturally:
+## Contoh Kueri
 
-- *"What does Pasal 1 of UU PDP (UU 27/2022) define as personal data?"*
-- *"Find provisions about transaksi elektronik in Indonesian law"*
-- *"What are the data controller obligations in the PDP Law?"*
-- *"Is UU 11/2008 (ITE Law) still in force?"*
-- *"Find consumer protection provisions in Indonesian law"*
-- *"What does UU 36/1999 say about telecommunications?"*
-- *"Search for 'transfer dana' in Indonesian legislation"*
+Setelah terhubung, tanyakan secara alami:
+
+- *"Cari 'pelindungan data pribadi' dalam UU PDP No. 27/2022"*
+- *"Apa isi Pasal 30 KUHP tentang pidana denda?"*
+- *"Temukan ketentuan tentang pemutusan hubungan kerja dalam UU Ketenagakerjaan"*
+- *"Apakah UU ITE No. 11/2008 masih berlaku?"*
+- *"Cari kewajiban keamanan data dalam UU PDP"*
+- *"Apa persyaratan persetujuan dalam UU Perlindungan Konsumen?"*
+- *"Bagaimana UU PDP Indonesia selaras dengan kerangka perlindungan data ASEAN?"*
+- *"Validasi kutipan: UU No. 27 Tahun 2022, Pasal 16"*
+- *"Bangun argumen hukum tentang hak subjek data dalam hukum Indonesia"*
 
 ---
 
@@ -125,92 +130,136 @@ Once connected, just ask naturally:
 
 | Category | Count | Details |
 |----------|-------|---------|
-| **Laws (Undang-Undang)** | 1,924 | Full census of Indonesian national legislation |
-| **Provisions (Pasal)** | 2,225 | Full-text searchable with FTS5 |
-| **Legal Definitions** | 65 | Extracted from Pasal 1 (Ketentuan Umum) |
-| **Full-text Laws** | 8 | PDP, ITE, Company, Consumer Protection, Telecom, Trade, Fund Transfer |
-| **Metadata-only Laws** | 1,916 | Title, year, number, status, source URL |
-| **Database Size** | ~2.1 MB | Optimized SQLite, portable |
-| **Coverage Period** | 1946--2026 | 80 years of Indonesian legislation |
+| **Undang-Undang** | 1,924 laws | Complete Indonesian legislative corpus from BPK RI |
+| **Provisions (Pasal)** | 2,225 sections | Full-text searchable with FTS5 |
+| **Database Size** | ~2 MB | Optimized SQLite, portable |
+| **Language** | Indonesian (Bahasa Indonesia) | Official language of Indonesian law |
+| **Freshness Checks** | Automated | Drift detection against JDIH BPK |
 
-**Verified data only** -- every law is enumerated from peraturan.go.id (JDIH Nasional), with full text sourced from peraturan.bpk.go.id (BPK RI). Zero LLM-generated content.
+### Key Laws Included
 
-### Key Laws with Full Article Text
+| Law | Description |
+|-----|-------------|
+| UU No. 27/2022 (UU PDP) | Undang-Undang Pelindungan Data Pribadi |
+| UU No. 11/2008 jo. 19/2016 (UU ITE) | Informasi dan Transaksi Elektronik |
+| KUHP (Kitab UU Hukum Pidana) | Criminal Code |
+| UU No. 13/2003 (Ketenagakerjaan) | Employment / Labour Law |
+| UU No. 8/1999 (Perlindungan Konsumen) | Consumer Protection |
+| UU No. 40/2007 (Perseroan Terbatas) | Limited Liability Companies |
+| UU No. 4/2023 (P2SK) | Financial Sector Development |
 
-| Law | Articles | Description |
-|-----|----------|-------------|
-| **UU 27/2022 (PDP Law)** | 76 | Personal Data Protection -- Indonesia's GDPR equivalent |
-| **UU 11/2008 (ITE Law)** | 54 | Electronic Information and Transactions |
-| **UU 36/1999 (Telecom)** | 37 | Telecommunications |
-| **UU 8/1999 (Consumer)** | 36 | Consumer Protection |
-| **UU 3/2011 (Fund Transfer)** | 35 | Fund Transfer |
-| **UU 7/2014 (Trade)** | 32 | Trade |
-| **UU 40/2007 (Company)** | 26 | Limited Liability Companies (PT) |
-| **UU 19/2016 (ITE Amdt)** | 13 | ITE Law Amendment |
+**Verified data only** -- every citation is validated against official sources (peraturan.bpk.go.id, jdih.kemenkumham.go.id). Zero LLM-generated content.
 
 ---
 
-## Available Tools (8)
+## Why This Works
 
-### Core Legal Research Tools
+**Verbatim Source Text (No LLM Processing):**
+- All statute text is ingested from peraturan.go.id and jdih.kemenkumham.go.id official sources using a census-first full corpus approach (BPK RI + JDIH Nasional)
+- Provisions are returned **unchanged** from SQLite FTS5 database rows
+- Zero LLM summarization or paraphrasing -- the database contains law text, not AI interpretations
 
-| Tool | Description |
-|------|-------------|
-| `search_legislation` | FTS5 search on 2,225 provisions with BM25 ranking |
-| `get_provision` | Retrieve specific provision by law identifier + Pasal number |
-| `list_documents` | List all 1,924 laws with status and metadata |
-| `validate_citation` | Validate citation against database (zero-hallucination check) |
-| `check_currency` | Check if statute is in force, amended, or repealed |
-| `get_definitions` | Get legal term definitions from Pasal 1 (Ketentuan Umum) |
-| `format_citation` | Format citations per Indonesian conventions |
-| `build_legal_stance` | Aggregate citations across multiple statutes |
+**Smart Context Management:**
+- Search returns ranked provisions with BM25 scoring (safe for context)
+- Provision retrieval gives exact text by law number + pasal (article)
+- Cross-references help navigate without loading everything at once
 
-### EU Law Integration Tools (5)
+**Technical Architecture:**
+```
+JDIH BPK / peraturan.go.id --> Parse --> SQLite --> FTS5 snippet() --> MCP response
+                                  ^                        ^
+                           Provision parser         Verbatim database query
+```
 
-| Tool | Description |
-|------|-------------|
-| `get_eu_basis` | Get EU directives/regulations referenced in Indonesian law |
-| `get_indonesian_implementations` | Find Indonesian laws implementing EU acts |
-| `search_eu_implementations` | Search EU documents with Indonesian implementation counts |
-| `get_provision_eu_basis` | Get EU references for specific provision |
-| `validate_eu_compliance` | Check implementation status |
+### Traditional Research vs. This MCP
+
+| Pendekatan Tradisional | Server MCP ini |
+|------------------------|----------------|
+| Cari di peraturan.go.id berdasarkan nomor UU | Cari dalam Bahasa Indonesia: *"pelindungan data pribadi"* |
+| Navigasi manual UU multi-pasal | Dapatkan ketentuan yang tepat dengan konteks |
+| Referensi silang manual antar UU | `build_legal_stance` mengagregasi dari berbagai sumber |
+| "Apakah UU ini masih berlaku?" -- periksa manual | Alat `check_currency` -- jawaban dalam hitungan detik |
+| Temukan kerangka ASEAN -- cari manual | `get_eu_basis` -- kerangka internasional terkait langsung |
+| Tanpa API, tanpa integrasi | Protokol MCP -- native AI |
+
+**Tradisional:** Cari di JDIH --> Unduh PDF --> Ctrl+F dalam Bahasa Indonesia --> Referensi silang UU lain --> Periksa kerangka ASEAN secara terpisah --> Ulangi
+
+**MCP ini:** *"Apa kewajiban pemrosesan data berdasarkan UU PDP No. 27/2022 dan bagaimana selarasnya dengan standar internasional?"* --> Selesai.
 
 ---
 
-## Data Sources & Architecture
+## Available Tools (13)
 
-### Census-First Full Corpus Ingestion
+### Core Legal Research Tools (8)
 
-This MCP uses a **census-first** approach:
+| Tool | Description |
+|------|-------------|
+| `search_legislation` | FTS5 full-text search across 2,225 provisions with BM25 ranking. Supports Bahasa Indonesia queries |
+| `get_provision` | Retrieve specific provision by law number + pasal (article) |
+| `check_currency` | Check if a law is in force, amended, or repealed |
+| `validate_citation` | Validate citation against database -- zero-hallucination check |
+| `build_legal_stance` | Aggregate citations from multiple laws for a legal topic |
+| `format_citation` | Format citations per Indonesian conventions (full/short/pinpoint) |
+| `list_sources` | List all available laws with metadata, coverage scope, and data provenance |
+| `about` | Server info, capabilities, dataset statistics, and coverage summary |
 
-1. **Census** (`scripts/census.ts`): Enumerates all 1,924 Undang-Undang from peraturan.go.id paginated listing
-2. **Ingest** (`scripts/ingest.ts`): For each law, fetches full text from BPK RI (when accessible), falls back to metadata-only seed
-3. **Build** (`scripts/build-db.ts`): Compiles all seeds into optimized SQLite with FTS5
+### International Law Integration Tools (5)
 
-```
-peraturan.go.id (census) --> peraturan.bpk.go.id (full text) --> SQLite + FTS5 --> MCP response
-                                    |
-                         geo-blocked? --> metadata-only seed
-```
+| Tool | Description |
+|------|-------------|
+| `get_eu_basis` | Get international frameworks (ASEAN, G20, WTO) that an Indonesian law aligns with |
+| `get_indonesian_implementations` | Find Indonesian laws implementing a specific international instrument |
+| `search_eu_implementations` | Search international documents with Indonesian implementation counts |
+| `get_provision_eu_basis` | Get international law references for a specific provision |
+| `validate_eu_compliance` | Check alignment status of Indonesian laws against international frameworks |
 
-### Sources
+---
 
-- **[peraturan.go.id](https://peraturan.go.id)** -- JDIH Nasional (Ministry of Law and Human Rights). Canonical listing of all Indonesian legislation.
-- **[peraturan.bpk.go.id](https://peraturan.bpk.go.id)** -- BPK RI (Audit Board of the Republic of Indonesia). Full-text HTML of legislation with Pasal/Bab structure.
+## International Law Alignment
 
-### Data Coverage by Decade
+Indonesia is not an EU member state. Indonesian law aligns with international frameworks through:
 
-| Decade | Laws |
-|--------|------|
-| 1940s | 113 |
-| 1950s | 421 |
-| 1960s | 191 |
-| 1970s | 82 |
-| 1980s | 101 |
-| 1990s | 185 |
-| 2000s | 367 |
-| 2010s | 216 |
-| 2020s | 248 |
+- **ASEAN framework** -- Indonesia is a founding ASEAN member and the largest economy; digital economy and data protection laws (UU PDP) align with ASEAN frameworks
+- **G20** -- Indonesia holds G20 membership; financial regulation and data governance align with G20 commitments
+- **WTO** -- Trade, intellectual property, and e-commerce law follows WTO commitments
+- **UNCITRAL** -- Electronic transactions framework follows UNCITRAL model law principles
+- **Perhimpunan Advokat Indonesia (PERADI) / Kongres Advokat Indonesia (KAI)** -- Professional legal practice regulated by PERADI and KAI
+
+The international bridge tools allow you to explore these alignment relationships -- checking which Indonesian provisions correspond to ASEAN or G20 requirements, and vice versa.
+
+> **Note:** International cross-references reflect alignment and treaty obligation relationships. Indonesia adopts its own legislative approach, and the tools help identify where Indonesian and international law address the same domains.
+
+---
+
+## Data Sources & Freshness
+
+All content is sourced from authoritative Indonesian legal databases:
+
+- **[peraturan.go.id](https://peraturan.go.id/)** -- Official Indonesian government regulation portal
+- **[JDIH BPK RI (peraturan.bpk.go.id)](https://peraturan.bpk.go.id/)** -- Badan Pemeriksa Keuangan legal information network (primary source)
+- **[JDIH Kemenkumham](https://jdih.kemenkumham.go.id/)** -- Ministry of Law and Human Rights legal information network
+
+### Data Provenance
+
+| Field | Value |
+|-------|-------|
+| **Authority** | BPK RI (Badan Pemeriksa Keuangan) / JDIH Nasional |
+| **Language** | Indonesian (Bahasa Indonesia) |
+| **Coverage** | 1,924 Undang-Undang across all legislative areas |
+| **Ingestion method** | Census-first full corpus from BPK RI + JDIH Nasional |
+| **Last ingested** | 2026-02-28 |
+
+### Automated Freshness Checks
+
+A GitHub Actions workflow monitors all data sources:
+
+| Check | Method |
+|-------|--------|
+| **Law amendments** | Drift detection against known pasal anchors |
+| **New laws** | Comparison against JDIH BPK index |
+| **Repealed laws** | Status change detection |
+
+**Verified data only** -- every citation is validated against official sources. Zero LLM-generated content.
 
 ---
 
@@ -224,6 +273,8 @@ This project uses multiple layers of automated security scanning:
 | **Semgrep** | SAST scanning (OWASP top 10, secrets, TypeScript) | Every push |
 | **Gitleaks** | Secret detection across git history | Every push |
 | **Trivy** | CVE scanning on filesystem and npm dependencies | Daily |
+| **Socket.dev** | Supply chain attack detection | PRs |
+| **Dependabot** | Automated dependency updates | Weekly |
 
 See [SECURITY.md](SECURITY.md) for the full policy and vulnerability reporting.
 
@@ -235,17 +286,19 @@ See [SECURITY.md](SECURITY.md) for the full policy and vulnerability reporting.
 
 > **THIS TOOL IS NOT LEGAL ADVICE**
 >
-> Statute text is sourced from official Indonesian government databases. However:
+> Statute text is sourced from JDIH BPK RI and peraturan.go.id official databases. However:
 > - This is a **research tool**, not a substitute for professional legal counsel
-> - **Full article text is available for 8 key laws only** -- most laws have metadata only
-> - **Verify critical citations** against primary sources (peraturan.go.id or peraturan.bpk.go.id)
-> - **Bahasa Indonesia is the legally binding language** -- no English translations are official
+> - **Court case coverage is not included** -- do not rely solely on this for jurisprudence research
+> - **Verify critical citations** against primary sources (peraturan.go.id) for official proceedings
+> - **International cross-references** reflect alignment relationships, not formal transposition
+> - **Regional/local regulations (Perda)** are not included -- this covers national Undang-Undang only
+> - For professional legal advice in Indonesia, consult a member of **PERADI (Perhimpunan Advokat Indonesia)** or **KAI (Kongres Advokat Indonesia)**
 
-**Before using professionally, read:** [DISCLAIMER.md](DISCLAIMER.md) | [PRIVACY.md](PRIVACY.md)
+**Before using professionally, read:** [DISCLAIMER.md](DISCLAIMER.md) | [SECURITY.md](SECURITY.md)
 
 ### Client Confidentiality
 
-Queries go through the Claude API. For privileged or confidential matters, use on-premise deployment. See [PRIVACY.md](PRIVACY.md) for guidance.
+Queries go through the Claude API. For privileged or confidential matters, use on-premise deployment.
 
 ---
 
@@ -268,73 +321,63 @@ npm run dev                                       # Start MCP server
 npx @anthropic/mcp-inspector node dist/index.js   # Test with MCP Inspector
 ```
 
-### Data Pipeline
+### Data Management
 
 ```bash
-npm run census                           # Enumerate all 1,924 laws from peraturan.go.id
-npm run ingest                           # Fetch full text from BPK RI + generate seeds
-npm run ingest -- --resume               # Resume (skip existing seed files)
-npm run ingest -- --limit 10             # Test with first 10 laws
-npm run build:db                         # Rebuild SQLite database from seeds
-npm run check-updates                    # Check for new legislation
+npm run ingest              # Ingest laws from JDIH BPK
+npm run build:db            # Rebuild SQLite database
+npm run check-updates       # Check for amendments and new laws
 ```
-
-### Pipeline Details
-
-| Step | Script | Output |
-|------|--------|--------|
-| Census | `scripts/census.ts` | `data/census.json` (1,924 laws) |
-| Ingest | `scripts/ingest.ts` | `data/seed/*.json` (per-law JSON) |
-| Build | `scripts/build-db.ts` | `data/database.db` (2.1 MB SQLite) |
 
 ### Performance
 
 - **Search Speed:** <100ms for most FTS5 queries
-- **Database Size:** ~2.1 MB (efficient, portable)
-- **Census:** ~50 seconds for full corpus enumeration
-- **Ingestion:** ~6 seconds with metadata-only fallback
+- **Database Size:** ~2 MB (efficient, portable)
+- **Reliability:** 100% ingestion success rate
 
 ---
 
 ## Related Projects: Complete Compliance Suite
 
-This server is part of **Ansvar's Compliance Suite**:
+This server is part of **Ansvar's Compliance Suite** -- MCP servers that work together for end-to-end compliance coverage:
 
 ### [@ansvar/eu-regulations-mcp](https://github.com/Ansvar-Systems/EU_compliance_MCP)
-**Query 49 EU regulations directly from Claude** -- GDPR, AI Act, DORA, NIS2, and more. `npx @ansvar/eu-regulations-mcp`
+**Query 49 EU regulations directly from Claude** -- GDPR, AI Act, DORA, NIS2, MiFID II, eIDAS, and more. Full regulatory text with article-level search. `npx @ansvar/eu-regulations-mcp`
 
-### [@ansvar/us-regulations-mcp](https://github.com/Ansvar-Systems/US_Compliance_MCP)
-**Query US federal and state compliance laws** -- HIPAA, CCPA, SOX, and more. `npx @ansvar/us-regulations-mcp`
+### [@ansvar/security-controls-mcp](https://github.com/Ansvar-Systems/security-controls-mcp)
+**Query 261 security frameworks** -- ISO 27001, NIST CSF, SOC 2, CIS Controls, SCF, and more. `npx @ansvar/security-controls-mcp`
 
-### [@ansvar/swedish-law-mcp](https://github.com/Ansvar-Systems/swedish-law-mcp)
-**Query 2,415 Swedish statutes** -- DSL, BrB, ABL, MB, and more. `npx @ansvar/swedish-law-mcp`
+### [@ansvar/sanctions-mcp](https://github.com/Ansvar-Systems/Sanctions-MCP)
+**Offline-capable sanctions screening** -- OFAC, EU, UN sanctions lists. `pip install ansvar-sanctions-mcp`
 
-### [@ansvar/security-controls-mcp](https://github.com/Ansvar-Systems/Security-Controls-MCP)
-**Query 261 security frameworks** -- SCF, ISO 27001, NIST CSF, SOC 2. `npx @ansvar/security-controls-mcp`
+**70+ national law MCPs** covering Australia, Brazil, Canada, China, Denmark, Finland, France, Germany, Ghana, Iceland, India, Ireland, Israel, Italy, Japan, Kenya, Netherlands, Nigeria, Norway, Singapore, Slovenia, South Korea, Sweden, Switzerland, Thailand, UAE, UK, and more.
 
 ---
 
 ## Contributing
 
-Contributions welcome! Priority areas:
+Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-- **Full-text expansion** -- Additional BPK RI Detail IDs for more laws
-- **Peraturan Pemerintah (PP)** -- Government regulations (implementing legislation)
-- **Peraturan Presiden (Perpres)** -- Presidential regulations
-- **English translation** alignment for key statutes
-- **Historical amendment tracking**
+Priority areas:
+- Expanded provision extraction and pasal coverage
+- Court case law (Mahkamah Agung, Mahkamah Konstitusi decisions)
+- Government regulation (Peraturan Pemerintah / PP) coverage
+- Historical law versions and amendment tracking
 
 ---
 
 ## Roadmap
 
-- [x] **Census-first full corpus** -- 1,924 Undang-Undang enumerated from peraturan.go.id
-- [x] **Full text for key laws** -- PDP, ITE, Company, Consumer, Telecom, Trade, Fund Transfer
-- [ ] Full text expansion via BPK RI (from Indonesian IP access)
-- [ ] Peraturan Pemerintah (PP) coverage
-- [ ] Case law integration
-- [ ] Daily freshness checks
-- [ ] Premium tier with version tracking
+- [x] Core law database with FTS5 search
+- [x] Full corpus ingestion (1,924 UU, 2,225 provisions)
+- [x] Census-first full corpus from BPK RI + JDIH Nasional
+- [x] International law alignment tools (ASEAN, G20, WTO)
+- [x] Vercel Streamable HTTP deployment
+- [x] npm package publication
+- [ ] Expanded pasal-level provision extraction
+- [ ] Court case law expansion
+- [ ] PP (Peraturan Pemerintah) and Perpres coverage
+- [ ] Historical law versions (amendment tracking)
 
 ---
 
@@ -345,10 +388,10 @@ If you use this MCP server in academic research:
 ```bibtex
 @software{indonesian_law_mcp_2026,
   author = {Ansvar Systems AB},
-  title = {Indonesian Law MCP Server: Census-First Legal Research Tool},
+  title = {Indonesian Law MCP Server: AI-Powered Legal Research Tool},
   year = {2026},
   url = {https://github.com/Ansvar-Systems/indonesian-law-mcp},
-  note = {1,924 Indonesian Undang-Undang with full-text search}
+  note = {1,924 Indonesian Undang-Undang with 2,225 provisions from BPK RI and JDIH Nasional}
 }
 ```
 
@@ -360,14 +403,16 @@ Apache License 2.0. See [LICENSE](./LICENSE) for details.
 
 ### Data Licenses
 
-- **Legislation:** Government Open Data (Republic of Indonesia)
-- **Source:** peraturan.go.id (JDIH Nasional) + peraturan.bpk.go.id (BPK RI)
+- **Statutes & Legislation:** BPK RI / JDIH Nasional (public domain)
+- **International References:** ASEAN, G20, WTO (public domain)
 
 ---
 
 ## About Ansvar Systems
 
-We build AI-accelerated compliance and legal research tools. This MCP server covers the Indonesian legal system -- the largest economy in ASEAN with 270M+ people and a rapidly evolving regulatory landscape.
+We build AI-accelerated compliance and legal research tools for the global market. This MCP server started as our internal reference tool for Indonesian legal research -- turns out everyone building compliance tools for Southeast Asia has the same research frustrations.
+
+So we're open-sourcing it. Navigating 1,924 Undang-Undang across JDIH BPK and peraturan.go.id shouldn't take hours.
 
 **[ansvar.eu](https://ansvar.eu)** -- Stockholm, Sweden
 
