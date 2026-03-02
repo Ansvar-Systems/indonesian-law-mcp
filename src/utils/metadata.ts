@@ -1,5 +1,5 @@
 /**
- * Response metadata utilities for Australian Law MCP.
+ * Response metadata utilities for Indonesian Law MCP.
  */
 
 import type Database from '@ansvar/mcp-sqlite';
@@ -30,12 +30,10 @@ export function generateResponseMetadata(
   }
 
   return {
-    data_source: 'Federal Register of Legislation (legislation.gov.au) — Australian Government, Office of Parliamentary Counsel',
-    jurisdiction: 'AU',
+    data_source: 'JDIH (peraturan.bpk.go.id) — Indonesian Audit Board Legal Information Database',
+    jurisdiction: 'ID',
     disclaimer:
-      'This data is sourced from the Federal Register of Legislation under CC BY 4.0 licence. ' +
-      'The authoritative versions are maintained by the Australian Government. ' +
-      'Always verify with the official Federal Register of Legislation portal (legislation.gov.au).',
+      'This data is sourced from JDIH, the Indonesian government legal information database. The authoritative versions are maintained by Indonesian government bodies. Always verify with the official JDIH portal (peraturan.bpk.go.id).',
     freshness,
   };
 }
